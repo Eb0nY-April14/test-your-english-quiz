@@ -5,17 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- font awesome and google fonts -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" 
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" 
+    crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/86e830b7c3.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Test Your English Online Quiz Game</title>
+
+    <title>Spelling is Fun! Online Quiz Game</title>
+    <!-- <title>Know Your Spellings Quiz Game</title>  -->
+   <!-- <title>Test Your English Online Quiz Game</title>  -->
 </head>
 <body>
     <h1 class="heading"><img class="logo" src="assets/images/onlineQuizLogo.jpg" 
-        alt="English Quiz logo"> Test Your English
+        alt="English Quiz logo"> Spelling Quiz
     </h1>
       
 
     <div class="quiz-area">
+        <div class="controls-area">
+            <button class="btn btn--big btn--green"><i class="fas fa-caret-square-left"></i>
+            </button>   <!-- Backward (Previous Question) button icon -->
+            <button class="btn btn--big btn--blue"><i class="fas fa-caret-square-right"></i>
+            </button>       <!-- Forward (Next Question) button icon -->
+            <button class="btn btn--big btn--orange"><i class="fas fa-forward"></i>
+            </button>       <!-- Skip (Jump a Question) button icon -->
+        </div>
+        <div class="question-area">
+            <span id="questions">What is your name?</span>
+            <p class="answer-choice">Choose Answer</p>      <!--This will be visible only on mobile -->
+            <input id="answerA" type="radio" name="answers" value="">
+            <label for="answerA">Answer A</label> <br><br> 
 
+            <!-- Will remove all the <br> later & style them with margins instead in css-->
+
+            <input id="answerB" type="radio" name="answers" value="">
+            <label for="answerB">Answer B</label> <br><br>
+
+            <input id="answerC" type="radio" name="answers" value="">
+            <label for="answerC">Answer C</label> <br><br>
+
+            <input id="answerD" type="radio" name="answers" value="">
+            <label for="answerD">Answer D</label> <br><br>
+        </div>
+        <button class="btn btn--gray">Submit Answer</button>
     </div>
 
     <div class="score-area">
