@@ -27,11 +27,11 @@
 
     <div class="quiz-area">
         <div class="controls-area">
-            <button class="backBtn btn--big btn--green"><i class="fas fa-caret-square-left"></i>
+            <button data-type="back-button" class="backBtn btn--big btn--green"><i class="fas fa-caret-square-left"></i>
             </button>   <!-- Backward (Previous Question) button icon -->
-            <button class="forwardBtn btn--big btn--blue"><i class="fas fa-caret-square-right"></i>
+            <button data-type="forward-button" class="forwardBtn btn--big btn--blue"><i class="fas fa-caret-square-right"></i>
             </button>       <!-- Forward (Next Question) button icon -->
-            <button class="skipBtn btn--big btn--orange"><i class="fas fa-forward"></i>
+            <button data-type="skip-button" class="skipBtn btn--big btn--orange"><i class="fas fa-forward"></i>
             </button>       <!-- Skip (Jump a Question) button icon -->
         </div>
         <div class="question-area">
@@ -51,7 +51,7 @@
             <input id="answerD" type="radio" name="answers" value="">
             <label for="answerD">Answer D</label> <br><br>
         </div>
-        <button class="submitBtn btn--gray">Submit Answer</button>
+        <button data-type="submit-button" class="submitBtn btn--gray">Submit Answer</button>
     </div>
 
     <div class="score-area">
