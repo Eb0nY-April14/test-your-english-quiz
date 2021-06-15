@@ -1,125 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- font awesome and google fonts -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" 
-    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" 
-    crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
 
-    <script src="https://kit.fontawesome.com/86e830b7c3.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/86e830b7c3.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
 
-    <title>Spelling is Fun! Online Quiz Game</title>
-    <!-- <title>Know Your Spellings Quiz Game</title>  -->
-   <!-- <title>Test Your English Online Quiz Game</title>  -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <title>Home Page</title>
 </head>
 <body>
     <h1 class="heading"><img class="logo" src="assets/images/engOnlineQuizLogoResize.jpg" 
         alt="English Quiz logo"> Spelling Bee  
     </h1>
-      
 
-    <div class="quiz-area">
-        <div class="controls-area">
-            <button data-type="back-button" class="backBtn btn--big btn--green"><i class="fas fa-caret-square-left"></i>
-            </button>   <!-- Backward (Previous Question) button icon -->
-            <button data-type="forward-button" class="forwardBtn btn--big btn--blue"><i class="fas fa-caret-square-right"></i>
-            </button>       <!-- Forward (Next Question) button icon -->
-            <button data-type="skip-button" class="skipBtn btn--big btn--orange"><i class="fas fa-forward"></i>
-            </button>       <!-- Skip (Jump a Question) button icon -->
+    <div class="homeContainer">
+        <div id="home" class="sidebyside center">
+            <!--<h1>Ready to Play and Have some Fun?</h1> -->
+            <a href="#play.html" class="playScoreBtn">Play</a>
+            <a href="#highScores.html" id="highscoreBtn" class="playScoreBtn">High Scores <i class="fas fa-award"></i></a>
+            <h1>Ready to Play and Have some Fun?</h1>
         </div>
-
-        <div><h2>Choose the correct word from the list of options provided below:</h2></div>
-
-        <div id="questions-area">
-            
-        </div>
-
-         
-        <div id="answers-area">
-          
-        </div>  
-
-
-        
-
-
-       <!--  <div id="questions-area">
-             
-            <div id="answerA">
-                <input id="answer-A" type="radio" name="answer" value="tabel">
-                <label for="answer-A"></label> <br><br>
-            </div>
-            <div id="answerB"> 
-                <input id="answer-B" type="radio" name="answer" value="tabe">
-                <label for="answer-B"></label> <br><br>
-            </div>
-            <div id="answerC"> 
-                <input id="answer-C" type="radio" name="answer" value="table">
-                <label for="answer-C"></label> <br><br>
-            </div>    
-            <div id="answerD">
-                <input id="answer-D" type="radio" name="answer" value="tabule">
-                <label for="answer-D"></label> <br><br> 
-            </div>
-        </div>  -->
-
-
-        <!-- Will remove all the <br> below later & style them with margins instead in css  -->
-    
-        <!--<div id="answers-area">
-            <div id="answers">
-                <input id="answerA" type="radio" name="answer" value="tabel">
-                <label for="answerA"></label> <br><br> 
-    
-                <input id="answerB" type="radio" name="answer" value="tabe">
-                <label for="answerB"></label> <br><br>
-    
-                <input id="answerC" type="radio" name="answer" value="table">
-                <label for="answerC"></label> <br><br>
-    
-                <input id="answerD" type="radio" name="answer" value="tabule">
-                <label for="answerD"></label> <br><br> 
-            </div>  -->
-
-           <!--  <div id="answers">
-                <div class="answers-left">
-                  <div class="answer" tabIndex="1">Sunny</div>
-                  <div class="answer" tabIndex="2">Raining</div>
-                </div>
-                <div class="answers-right">
-                  <div class="answer" tabIndex="3">Cloudy</div>
-                  <div class="answer" tabIndex="4">Windy</div>
-                </div> -->
-
-                <!--<div id="answers-left">
-          </div>
-          <div id="answers-right">
-          </div> -->
-          
-            <div class="clear"></div>
-        </div>
-
-        
-
-
-        <button data-type="submit-button" class="submitBtn btn--gray">Submit Answer</button>
     </div>
-
-    <div class="score-area">
-        <p class="scores"> Right Answers: <span id="score">0</span></p>
-        <p class="scores"> Missed Answers: <span id="missed">0</span></p>     
-    </div>
+ 
     
-
-
     <script src="assets/js/script.js"></script>
-    
 </body>
 </html>
