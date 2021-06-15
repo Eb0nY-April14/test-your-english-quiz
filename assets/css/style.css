@@ -34,7 +34,7 @@ body {
     background-color: #D2B4DE;       
     box-sizing: border-box;
     width: 85%;
-    height: 65vh;
+    height: 85vh;
     max-height: 450px;
     max-width: 830px;
     margin-left: auto;
@@ -52,15 +52,26 @@ body {
     background-color: #979A9A;
 }
 
+div h2 {
+    font-size: 1em;
+}
+
 .question-area span {
     padding: 0 15px;
 }
 
+/*.answers {
+    display: inline-block;
+    /*display: inline-block;
+    background-color: #00BCD4; 
+    margin: 1em;
+  } */
+
 .submitBtn {
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 0.5em 1em;
-    font-size: 1.1em;
-    margin-top: 3em;
+    font-size: 1em;
+    /*margin-top: 0.5em; */
     font-weight: bold;
 }
 
@@ -79,7 +90,7 @@ body {
     background-color: #2E4053;              
     color: #D2B4DE;
 
-    box-sizing: border-box;
+    box-sizing: border-box; 
     width: 85%;
     max-height: 450px;
     max-width: 830px;
