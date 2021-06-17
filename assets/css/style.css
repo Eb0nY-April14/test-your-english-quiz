@@ -182,7 +182,7 @@ body {
 
 #question  {
     margin-top: 5rem; 
-    font-size: 1.6rem;
+    font-size: 1.6rem; 
     font-weight: bold;
     font-family: cursive;
     margin-bottom: 1rem;
@@ -322,6 +322,14 @@ body {
         border-radius: 4px;
         padding: 0.5rem 2rem;
         font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width:579px)  {
+    .playScoreBtn  {
+        font-size: 0.8rem;
+        display: block;
+        width: 10rem;
     }
 }
 
