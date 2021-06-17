@@ -227,3 +227,19 @@ body {
     font-family: "Nova Square", cursive;
     font-weight: bold;
 }
+
+.homeBtn  {     /* Add style to the home button on the end page that links a user back to the home page */
+    color:#000;
+    background: rgb(133, 127, 127);
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 1.5rem; 
+    padding: 1.2rem 2rem;
+    width: 30rem;
+    text-decoration: none;
+}
+
+.homeBtn:hover  {
+    background-color: #D2B4DE;  
+    cursor: pointer;   
+}
