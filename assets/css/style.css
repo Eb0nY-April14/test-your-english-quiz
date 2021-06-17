@@ -204,3 +204,26 @@ body {
     font-size: 1.5rem;
     border: 4px solid black;
 }
+
+#end input {            /* Add style to the text input */
+    margin: 3rem 0;
+    border-radius: 4px;
+    padding: 0.5rem 8rem;
+    margin-bottom: 6rem;
+    font-size: 1.8rem;
+}
+
+#saveScoreBtn {          /* Add style to the save score button */
+    padding: 0.2rem 2rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: cursive;
+    color: #000;
+    border-color: #000; 
+}
+
+#endFormText {       /* Add style to the h2 text displayed above the text input */
+    margin-top: 5rem;
+    font-family: "Nova Square", cursive;
+    font-weight: bold;
+}
