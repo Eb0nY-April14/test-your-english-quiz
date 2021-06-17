@@ -285,3 +285,13 @@ body {
         margin-bottom: 2rem;    
     } 
   } 
+
+  @media screen and (max-width:768px)  {
+    .option-container  {
+        min-width: 20rem; 
+        margin-bottom: 0.5rem; 
+        width: 45%;
+        border-radius: 4px;
+        font-size: 0.8rem;
+    }
+}
