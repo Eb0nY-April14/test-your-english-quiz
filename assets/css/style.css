@@ -228,7 +228,7 @@ body {
     font-weight: bold;
 }
 
-.homeBtn  {     /* Add style to the home button on the end page that links a user back to the home page */
+.homeBtn  {     /* Add style to the home link button on the end page that links a user back to the home page */
     color:#000;
     background: rgb(133, 127, 127);
     border-radius: 4px;
@@ -242,4 +242,24 @@ body {
 .homeBtn:hover  {
     background-color: #D2B4DE;  
     cursor: pointer;   
+}
+
+
+/******************************************************************************************************/
+/*                              MEDIA QUERIES STYLES                                                * /                                                                                                      /
+/*****************************************************************************************************/
+
+@media screen and (max-width:1052px)  {
+    #saveScoreBtn {
+        margin-bottom: 6rem;
+    }
+
+    .homeBtn {
+        font-size: 1.5rem;
+        padding-top: 0.5rem;
+    }
+
+    #end input {
+        margin-bottom: 2rem;
+    }
 }
