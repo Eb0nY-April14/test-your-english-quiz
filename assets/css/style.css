@@ -263,3 +263,17 @@ body {
         margin-bottom: 2rem;
     }
 }
+
+@media screen and (max-width:1000px)  {
+    .homeBtn {
+        font-size: 0.8rem;
+        padding-top: 0.8rem;
+        margin-top: 5rem;
+    }
+
+    #endFormText {
+        margin-top: 2rem;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+}
