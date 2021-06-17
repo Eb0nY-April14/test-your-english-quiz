@@ -295,3 +295,32 @@ body {
         font-size: 0.8rem;
     }
 }
+
+@media screen and (max-width:740px)  {
+    #end input {
+       width: 30%;
+   } 
+}
+
+@media screen and (max-width:621px)  {
+    #question  {
+        font-size: 1rem;
+    }
+
+    #home h1  {
+        font-size: 1rem;
+    }
+
+    #saveScoreBtn {
+        font-size: 1rem; 
+        margin-bottom: 8rem;
+        margin-top: 1rem;
+    }
+
+    #end input {
+        margin: 3rem 0;
+        border-radius: 4px;
+        padding: 0.5rem 2rem;
+        font-size: 0.8rem;
+    }
+}
