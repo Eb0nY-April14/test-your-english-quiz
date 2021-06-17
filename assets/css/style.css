@@ -150,3 +150,17 @@ body {
 .wrongAnswer  {
     background: rgb(255, 0, 0);
 }
+
+#headerdisplay  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerdisplay-pfix  {
+    text-align: center;
+    font-size: 2rem; 
+}
+
+.headerdisplay-main-text  {
+    text-align: center;
+}
