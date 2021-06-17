@@ -179,3 +179,11 @@ body {
     background: rgb(50, 205, 50);
     width: 0%;
 }
+
+#question  {
+    margin-top: 5rem; 
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: cursive;
+    margin-bottom: 1rem;
+}
