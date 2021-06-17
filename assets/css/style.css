@@ -324,3 +324,93 @@ body {
         font-size: 0.8rem;
     }
 }
+
+@media screen and (max-width:569px)  {
+    #home a {
+        font-size: 0.8rem;
+        display: block; 
+        margin: auto;
+        margin-bottom: 2rem;
+        width: 45%; 
+    } 
+}
+
+@media screen and (max-width:500px)  {
+    p.headerdisplay-pfix, #progressText  {
+        font-size: 0.6rem;
+    }
+
+    #progressLevel  {
+        width: 10rem;
+        height: 2rem;
+        margin-top: 1rem;
+        border-radius: 50px;
+       /* overflow: hidden; */
+    }
+
+    .heading {
+        font-size: 1.5rem;
+    }
+
+    .option-container {
+        text-align: center; 
+        display: block; 
+        margin-bottom: 0.5rem;
+        border-radius: 2px;
+        font-size: 1rem;
+        padding: 0;
+    }
+
+    #end input {
+        margin: 3rem 0;
+        border-radius: 4px;
+        padding: 0.5rem 4rem;
+        margin-bottom: 2rem;
+        font-size: 1rem;
+        display: block;
+        margin: auto;  
+    }
+    
+    #saveScoreBtn {
+        padding: 0.2rem 2rem;
+        font-size: 1rem;
+        margin-bottom: 8rem;
+    }
+
+    .homeBtn {
+        font-size: 0.8rem;
+        padding-top: 0.8rem;
+        margin-top: 5rem;
+    }
+
+    #endFormText {
+        margin-top: 2rem;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }   
+}
+
+@media screen and (max-width: 352px) {
+    .homeBtn {
+        font-size: 0.8rem;
+        padding-top: 0.5rem;
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+        padding-bottom: 0.1rem;
+    }
+
+    #saveScoreBtn {
+        margin-bottom: 4rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
