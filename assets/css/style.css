@@ -125,3 +125,28 @@ body {
     transform: scale(1.02);
     transform: transform 100ms;
 }
+
+.option-pfix  {
+    padding: 2rem 2.5rem; 
+} 
+
+.option-text  {
+    padding: 2rem; 
+    /*width: 100%; */
+} 
+
+#goodCommendation, #badCommendation {
+    font-family: "Nova Square", cursive;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 2rem;
+}
+
+/* This rule will make the answer/option button turns green if the user's answer is correct */
+.rightAnswer  {
+    background: rgb(0, 255, 0);
+}
+
+.wrongAnswer  {
+    background: rgb(255, 0, 0);
+}
