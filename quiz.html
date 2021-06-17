@@ -6,35 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- font awesome and google fonts -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" 
-    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" 
-    crossorigin="anonymous">
-
-    <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Raleway:wght@100&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/86e830b7c3.js" crossorigin="anonymous"></script>
-    
-
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <title> Quiz Page</title>  <!--Spelling is Fun! Online Quiz Game-->
-    <!-- <title>Know Your Spellings Quiz Game</title>  -->
-   <!-- <title>Test Your English Online Quiz Game</title>  -->
+    <title> Quiz Page</title>  
 </head>
 <body>
     <h1 class="heading"><img class="logo" src="assets/images/engOnlineQuizLogoResize.jpg" 
         alt="English Quiz logo"> Spelling Bee  
     </h1>
       
-    <div class="container">
-        <div id="home" class="sidebyside center">
+    <div class="quizContainer">
+        <div id="quiz">        <!--class="sidebyside center"-->
             <div id="headerdisplay">  <!--Used id="hud" in the tutorial video-->
                 <div class="headerdisplay-item">   <!--Used class="hud-item" in the tutorial video-->
                     <p id="progressText" class="headerdisplay-pfix">  <!--Used class="hud-prefix" in the tutorial video-->
                         Question
                     </p> 
-                    <div id="progressBar">
-                        <div id="progressBarFull"></div>
+                    <div id="progressLevel">      <!--Used id="progressBar" in the tutorial video-->
+                        <div id="progressLevelFull"></div>
                     </div> 
                 </div>
                 <div class="headerdisplay-item">
@@ -46,168 +38,39 @@
                     </h1>
                 </div> 
             </div> 
-            <div id="question">Choose the correct answer to each of these questions from the options provided below</div> 
-            <div class="option-container">   <!--Used class="choice-container" in the tutorial video-->
-                <p class="option-number">A</p>  <!--Used class="choice-prefix" in the tutorial video-->
-                <p class="options-text" data-type="1">Option 1</p>  <!--Used class="choice-text" & data-number="1" in the tutorial video-->
+
+            <h3 id="goodCommendation"></h3>
+            <h3 id="badCommendation"></h3>  
+
+            <h2 id="question"></h2>  
+            <div class="option-container">   
+                <p class="option-pfix">A</p>  
+                <p class="option-text" data-number="1">Option 1</p>  
             </div> 
 
             <div class="option-container">   
-                <p class="option-number">B</p>  
-                <p class="options-text" data-type="2">Option 2</p>  
+                <p class="option-pfix">B</p>  
+                <p class="option-text" data-number="2">Option 2</p>  
             </div> 
 
             <div class="option-container">   
-                <p class="option-number">C</p>  
-                <p class="options-text" data-type="3">Option 3</p>  
+                <p class="option-pfix">C</p>  
+                <p class="option-text" data-number="3">Option 3</p>  
             </div> 
 
             <div class="option-container">   
-                <p class="option-number">D</p>  
-                <p class="options-text" data-type="4">Option 4</p>  
-            </div> 
+                <p class="option-pfix">D</p>  
+                <p class="option-text" data-number="4">Option 4</p>  
+            </div>  
 
-            <!--<div class="option-container">   
-                <p class="option-number">A</p>  
-                <p class="options-text" data-type="1">Option 1</p>  
-            </div> -->
         </div>
     </div>
 
-   
-
-   <!--  <div class="quiz-area">
-        <div class="controls-area">
-            <button data-type="back-button" class="backBtn btn--big btn--green"><i class="fas fa-caret-square-left"></i>
-            </button>    Backward (Previous Question) button icon 
-            <button data-type="forward-button" class="forwardBtn btn--big btn--blue"><i class="fas fa-caret-square-right"></i>
-            </button>       Forward (Next Question) button icon 
-            <button data-type="skip-button" class="skipBtn btn--big btn--orange"><i class="fas fa-forward"></i>
-            </button>        Skip (Jump a Question) button icon 
-        </div> -->
-
-        <!--<div><h2>Choose the correct word from the list of options provided below:</h2></div> -->
-
-<!--<div> -->
-  <!--  <section>    QUESTION 1 -->
-    <!--    <div id="questions-area">I kept your food on the ------------------. </div>  -->
-        
- <!--   <section>   QUESTION 2 -->
-       <!-- <div id="questions-area">She is a very ----------------------- lady. </div>  -->
-        
-  <!--  <section>    QUESTION 3 -->
-        <!-- <div id="questions-area">An act of ---------------- is dangerous. </div>  -->
-       
-
-   <!-- <section>    QUESTION 4 -->
-       <!-- <div id="questions-area">My friend made a very ---------------- meal. </div>  -->
-        
-
-    <!-- <section>   QUESTION 5 -->
-       <!-- <div id="questions-area">My daughter is the ---------------- of the famous award. </div>
-        <div class="options-area">
-            <p class="optionNumber">A</p>
-            <p class="options-text" data-type="1">Option 1</p>
-        </div>
-
-        <div class="options-area">
-            <p class="optionNumber">B</p>
-            <p class="options-text" data-type="2">Option 2</p>
-        </div>  -->
-
-        <!--<div class="options-area">
-            <p class="optionNumber">C</p>
-            <p class="options-text" data-type="3">Option 3</p>
-        </div>
-
-        <div class="options-area">
-            <p class="optionNumber">D</p>
-            <p class="options-text" data-type="4">Option 4</p>
-        </div>  -->
-  <!--  </section>   QUESTION 5 ENDS-->
-<!-- </div> -->
-        
-
-         
-      <!--  <div id="answers-area">
-            <button></button>
-          
-        </div>  --> 
-
-
-        
-
-
-       <!--  <div id="questions-area">
-             
-            <div id="answerA">
-                <input id="answer-A" type="radio" name="answer" value="tabel">
-                <label for="answer-A"></label> <br><br>
-            </div>
-            <div id="answerB"> 
-                <input id="answer-B" type="radio" name="answer" value="tabe">
-                <label for="answer-B"></label> <br><br>
-            </div>
-            <div id="answerC"> 
-                <input id="answer-C" type="radio" name="answer" value="table">
-                <label for="answer-C"></label> <br><br>
-            </div>    
-            <div id="answerD">
-                <input id="answer-D" type="radio" name="answer" value="tabule">
-                <label for="answer-D"></label> <br><br> 
-            </div>
-        </div>  -->
-
-
-        <!-- Will remove all the <br> below later & style them with margins instead in css  -->
-    
-        <!--<div id="answers-area">
-            <div id="answers">
-                <input id="answerA" type="radio" name="answer" value="tabel">
-                <label for="answerA"></label> <br><br> 
-    
-                <input id="answerB" type="radio" name="answer" value="tabe">
-                <label for="answerB"></label> <br><br>
-    
-                <input id="answerC" type="radio" name="answer" value="table">
-                <label for="answerC"></label> <br><br>
-    
-                <input id="answerD" type="radio" name="answer" value="tabule">
-                <label for="answerD"></label> <br><br> 
-            </div>  -->
-
-           <!--  <div id="answers">
-                <div class="answers-left">
-                  <div class="answer" tabIndex="1">Sunny</div>
-                  <div class="answer" tabIndex="2">Raining</div>
-                </div>
-                <div class="answers-right">
-                  <div class="answer" tabIndex="3">Cloudy</div>
-                  <div class="answer" tabIndex="4">Windy</div>
-                </div> -->
-
-                <!--<div id="answers-left">
-          </div>
-          <div id="answers-right">
-          </div> -->
-          
-            <!--<div class="clear"></div> -->
-        <!--</div> -->
-
-        
-
-
-    <!--    <button data-type="submit-button" class="submitBtn btn--gray">Submit Answer</button>
-    </div>
-
-    <div class="score-area">
-        <p class="scores"> Right Answers: <span id="score">0</span></p>
-        <p class="scores"> Missed Answers: <span id="missed">0</span></p>     
-    </div>  -->
-    
-
-
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/script.js"></script>       <!-- change it later to "assets/js/script.js"-->
     
 </body>
 </html>
+
+   
+
+  
