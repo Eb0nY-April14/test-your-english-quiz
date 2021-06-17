@@ -187,3 +187,20 @@ body {
     font-family: cursive;
     margin-bottom: 1rem;
 }
+
+/******************************************************************************************************/
+/*                              END PAGE STYLES                                                   * /                                                                                                      /
+/*****************************************************************************************************/
+
+.endContainer  {               
+    background-color: #D2B4DE;     /* Light Purple background colour */  
+    box-sizing: border-box;
+    width: 85%;
+    max-width: 100%;      
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2.5%; 
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: 4px solid black;
+}
