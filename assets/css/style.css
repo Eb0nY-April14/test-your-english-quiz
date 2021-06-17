@@ -68,3 +68,22 @@ body {
     font-weight: bold;
     font-style: italic;
 }
+
+.playScoreBtn  {
+    
+    color:#000;
+    background: rgb(133, 127, 127);
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 1.5rem; 
+    padding: 1.2rem 2rem;
+    width: 30rem;
+    margin-bottom: 1rem; 
+    text-decoration: none;
+    margin-right: 2rem; 
+}
+
+.playScoreBtn:hover  {
+    background-color: #D2B4DE;  
+    cursor: pointer;   
+}
