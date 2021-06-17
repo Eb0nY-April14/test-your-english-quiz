@@ -164,3 +164,18 @@ body {
 .headerdisplay-main-text  {
     text-align: center;
 }
+
+#progressLevel  {
+    width: 15rem;       
+    height: 2rem;            
+    border: 0.3rem solid rgb(50, 205, 50);
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden; 
+}
+
+#progressLevelFull  {
+    height: 100%;
+    background: rgb(50, 205, 50);
+    width: 0%;
+}
