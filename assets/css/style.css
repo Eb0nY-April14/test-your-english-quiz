@@ -277,3 +277,11 @@ body {
         margin-bottom: 1rem;
     }
 }
+
+@media screen and (max-width:930px)  {
+    #home a {
+        font-size: 0.8rem;
+        margin: auto;
+        margin-bottom: 2rem;    
+    } 
+  } 
