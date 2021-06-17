@@ -37,3 +37,21 @@ body {
     padding-right: 5px;
 }
 
+/******************************************************************************************************/
+/*                              HOME PAGE STYLES                                                   * /                                                                                                      /
+/*****************************************************************************************************/
+
+.homeContainer  {              
+    background-color: #D2B4DE;       
+    box-sizing: border-box;
+    width: 85%;
+    height: 86vh; 
+    max-height: 800px; 
+    max-width: 100%;      
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2.5%;
+    font-weight: bold;
+    font-size: 1.2em;
+    border: 4px solid black;
+}
