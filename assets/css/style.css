@@ -37,6 +37,35 @@ body {
     padding-right: 5px;
 }
 
+footer {
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;             
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.5em;
+    background-color: #2E4053;              
+    color: #D2B4DE;
+    box-sizing: border-box;
+    width: 85%;
+    max-height: 450px;
+    max-width: 100%;  
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;  
+}
+
+#topBtn {
+    text-decoration: none;
+    color: #D2B4DE;
+    font-weight: bold;
+}
+
 /******************************************************************************************************/
 /*                              HOME PAGE STYLES                                                   * /                                                                                                      /
 /*****************************************************************************************************/
@@ -140,7 +169,8 @@ body {
     margin-top: 2rem;
 }
 
-/* This rule will make the answer/option button turns green if the user's answer is correct */
+/* The 2 set of rules below will make the answer/option button turns green if the user's
+ answer is correct and red if otherwise */
 .rightAnswer  {
     background: rgb(0, 255, 0);
 }
