@@ -289,6 +289,10 @@ footer {
     #end input {
        width: 30%;
    } 
+
+   .option-container { 
+    width: 40%; 
+   }
 }
 
 @media screen and (max-width:621px)  {
