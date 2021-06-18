@@ -289,10 +289,6 @@ footer {
     #end input {
        width: 30%;
    } 
-
-   .option-text { 
-    width: 30%; 
-   }
 }
 
 @media screen and (max-width:621px)  {
