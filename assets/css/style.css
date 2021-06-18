@@ -19,17 +19,18 @@ body {
 .heading {
     text-align: center;
     font-size: 2.5rem;
+    font-family: "Nova Square", cursive;
+    font-style: italic;
     padding: 0.5em;
     background-color: #2E4053;              
     color: #D2B4DE;
     box-sizing: border-box;
     width: 85%;
     max-height: 450px;
-    max-width: 100%;  /*830px;*/
+    max-width: 100%;  
     margin-left: auto;
     margin-right: auto;
     padding: 1%;
-    font-weight: bold; 
 }
 
 .logo {
@@ -44,9 +45,10 @@ footer {
     list-style: none;
     flex-wrap: nowrap;
     flex-direction: row;
-    justify-content: space-between;             
+    justify-content: space-between; 
+    font-family: "Nova Square", cursive;            
     font-size: 1.5rem;
-    font-weight: bold;
+    font-style: italic;
     text-align: center;
     padding: 0.5em;
     background-color: #2E4053;              
@@ -63,7 +65,8 @@ footer {
 #topBtn {
     text-decoration: none;
     color: #D2B4DE;
-    font-weight: bold;
+    font-family: "Nova Square", cursive;            
+    font-style: italic;
 }
 
 /******************************************************************************************************/
@@ -87,7 +90,6 @@ footer {
 
 .homeContainer a  {
     padding-right: 2em;
-    /*padding-top: 2em; */
 }
 
 .homeContainer h1 {
@@ -157,10 +159,12 @@ footer {
 
 .option-pfix  {
     padding: 2rem 2.5rem; 
+    font-family: "Raleway", cursive;
 } 
 
 .option-text  {
     padding: 2rem; 
+    font-family: "Raleway", cursive;
 } 
 
 #goodCommendation, #badCommendation {
@@ -213,7 +217,7 @@ footer {
     margin-top: 5rem; 
     font-size: 1.6rem; 
     font-weight: bold;
-    font-family: cursive;
+    font-family: "Raleway", cursive;
     margin-bottom: 1rem;
 }
 
