@@ -213,7 +213,7 @@ body {
     font-size: 1.8rem;
 }
 
-#saveResultBtn {          /* Add style to the save score button */
+#saveScoreBtn {          /* Add style to the save score button */
     padding: 0.2rem 2rem;
     font-size: 1.8rem;
     font-weight: bold;
@@ -250,7 +250,7 @@ body {
 /*****************************************************************************************************/
 
 @media screen and (max-width:1052px)  {
-    #saveResultBtn {
+    #saveScoreBtn {
         margin-bottom: 6rem;
     }
 
@@ -311,7 +311,7 @@ body {
         font-size: 1rem;
     }
 
-    #saveResultBtn {
+    #saveScoreBtn {
         font-size: 1rem; 
         margin-bottom: 8rem;
         margin-top: 1rem;
@@ -379,7 +379,7 @@ body {
         margin: auto;  
     }
     
-    #saveResultBtn {
+    #saveScoreBtn {
         padding: 0.2rem 2rem;
         font-size: 1rem;
         margin-bottom: 8rem;
@@ -407,7 +407,7 @@ body {
         padding-bottom: 0.1rem;
     }
 
-    #saveResultBtn {
+    #saveScoreBtn {
         margin-bottom: 4rem;
     }
 }

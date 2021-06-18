@@ -14,21 +14,13 @@ Spelling Bee is an online Quiz game that aims at building users vocabulary in or
 
 # Features
 
-It is designed to be responsive on all device sizes and thereby accessible on a range of devices. Usability was thought of from the start so the user interface was designed in its simplest form with good colour contrast between the background and text colours respectively. The font-size and weight of the texts are large and bold with all texts aligned to the centre so that it can be easily tweaked/adjusted to fit different screen sizes using the "@media screen css rule".  Also, the buttons for navigating around and for submission i.e back, forward, skip and submit buttons are big enough to see.  All these features will ensure that both first time and returning users/visitors to the site find it easy to read the texts, navigate around the interface pretty quickly, interact with the game and have a pleasurable experience while doing so. 
+It is designed to be responsive on all device sizes and thereby accessible on a range of devices. Usability was thought of from the start so the user interface was designed in its simplest form with good colour contrast between the background and text colours respectively. The font-size and weight of the texts are large and bold with all texts aligned to the centre so that it can be easily tweaked/adjusted to fit different screen sizes using the "@media screen css rule".  Also, the buttons for navigating around and for submission are big enough to see.  All these features will ensure that both first time and returning users/visitors to the site find it easy to read the texts, navigate around the interface pretty quickly, interact with the game and have a pleasurable experience while doing so. 
 
 ## Existing Features
 
-    The entire user interface is divided into three parts namely:
-
-      i. Heading Bar
-
-      ii. Quiz Area
-
-      iii. Score Display Area 
-
 * Heading Bar
 
-    * It consists of the logo and Spelling Bee quiz name nicely placed beside each other and aligned to the centre to keep in line with the overall structure of the page.
+    * It is uniform across all the three pages and consists of the logo and Spelling Bee quiz name nicely placed beside each other and aligned to the centre to keep in line with the overall structure of the page.
 
     * See the 'Heading Bar' Screenshot below:
 
@@ -36,21 +28,42 @@ It is designed to be responsive on all device sizes and thereby accessible on a 
 
  &nbsp; 
 
-* Quiz Area
+    The entire user interface is divided into three parts namely:
 
-    * Each question and the four choice answers are displayed here for the user to choose the right answer from.  Each of the answers have radio buttons to the left of them which serves as the input that the user clicks in order to select their answer. The quiz area defined by a black border also houses the control buttons i.e back, forward and skip buttons located at the top.
+      i. Home Page
 
-    * See the 'Quiz Area' Screenshot below:
+      ii. Quiz Page
+
+      iii. End Page (Score Display Area) 
+
+
+* Home Page 
+
+    * This is the page that appears as a user clicks on the url link and lands on the page. It is defined from the rest the of the screen page by a black border with a heading bar at the top. It welcomes the user and aims at making them feel relaxed and tune them in to a playful fun mode while at the same time learning through their interaction with the quiz app. It consists of two buttons located at the top centre of the page which are the 'play' (the user clicks this to play the quiz) and 'high score' (the user clicks this and it displays thir score) buttons and also a welcome message nicely positioned at the centre of the page.
+    For mobile view, most of these features on this page will stack on top of each other for great user experience and responsiveness.
+
+&nbsp; 
+
+* Quiz Page
+
+    * This is the page that the user interacts with in orer to play the quiz. Like the home page, it is defined from the rest the of the screen page by a black border with a heading bar at the top in order to keep in line with uniformity across all  three pages. It consists of 10 questions with each having four options to choose their answer from. Each of the options are displayed inside a button with a default background colour of blue. If a user gets the answer right, the button colour changes to green and a "pat-in-the-back" message pops up to congratulate and spur them to do more and if a user misses the answer, the button colour changes to red and a message pops up to tell them they missed and tell them they can do better.
+    A user's score is displayed at the top right hand corner of the page while question number tracker is displayed at the top left corner of the page to let the user know which question they are on.
+    The feedback message pops up underneath the score and question tracker area and is nicely centred so it can be clearly seen by the user as they play along.
+    For mobile view, most of these features on this page will stack on top of each other for great user experience and responsiveness.
+
+    * See the 'Quiz Page' Screenshot below:
 
     <img src="assets/images/.JPG">
 
  &nbsp; 
 
-* Score Display Area
+* End Page (Score Display Area)       
 
-    * The number of right and missed answers are displayed here respectively under the headings of 'Right Answers:' and 'Missed Answers:' and their values displayed in font of them and updated as users play along.
-
-    * See the 'Score Display Area' Screenshot below:
+    * This is the page that the user is directed to at the end of the quiz game. Like the other pages, it is defined from the rest the of the screen page by a black border with a heading bar at the top in order to keep in line with the uniformity already established with other pages. The overall score is displayed at the top centre of the page and a text input box is also provided to allow the user fill in their names for onward use. 
+    Finally, the "Back to Home Page" button is displayed at the bottom of the page that redirects the user back to the home page if they wish to play again.
+    For mobile view, most of these features on this page will stack on top of each other for great user experience and responsiveness.
+    
+    * See the 'End Page' Screenshot below:
 
     <img src="assets/images/.JPG">
 
@@ -65,10 +78,7 @@ How the Quiz Game works (Use Cases):
  b. If a user scores between 4 and 6 inclusive, it tells the user he's tried by displaying an alert that says "Well-done ${username} but there is room for improvement!".  
  c. If a user scores between 0 and 3 inclusive, it tells the user he's failed by displaying an alert that says "Oops you failed ${username}, please try again!". 
  
-
-
-
-
+&nbsp; 
 
 User Experience (UX)
 
@@ -96,11 +106,11 @@ User Experience (UX)
 
         * Colour Scheme
 
-            * Gradient colour ranging from a lighter shade of red to a darker shade are used as background colour throughout the website. It blends well into the font colour of black which is predominantly used for texts on every page.
+            * Background colour of a lighter shade of purple was used with a black border. It blends well into the font colour of black which is predominantly used for texts on every page and grey background colour for the buttons.
 
         *  Typography
 
-            * Google's 'Lora' typeface was repeatedly used on every page of this website but with variations in sizes and font weights. Lora is a well-balanced contemporary serif and it is a text typeface with moderate contrast well suited for body text. The source is: url('https://fonts.googleapis.com/css2?family=Lora&display=swap'). This font is one of the most common and frequently used web safe fonts in HTML and most browsers recognise it.
+            * Google's 'Raleway' and 'Nova Square' typeface was repeatedly used on every page of this website but with variations in sizes and font weights. Lora is a well-balanced contemporary serif and it is a text typeface with moderate contrast well suited for body text. The source is: url('https://fonts.googleapis.com/css2?family=Lora&display=swap'). This font is one of the most common and frequently used web safe fonts in HTML and most browsers recognise it.
 
 
         * Imagery
@@ -109,12 +119,12 @@ User Experience (UX)
 
 # Wireframes
 
- The tool used to design the prototype for this website is uizard. To view the prototype for Home, History of Olumo Rock, Gallery and Contact Us Pages, click [here](https://app.uizard.io/prototypes/d9LEdo097Ph8RZGqE0XX) or view below:
+ For prototyping, the wireframes were designed manually by hand without using any automated tool in order to bring this idea to life. The screenshots of all the three pages the quiz will have namely home, quiz and end pages   and its look on mobile devices can be viewed below:
 
-    <img src="wireframes/homePage.jpg">
-    <img src="wireframes/historyPage.jpg">
-    <img src="wireframes/galleryPage.jpg">
-    <img src="wireframes/contactUsPage.jpg">
+    <img src="asssets/images/homePageWireframe.jpg">
+    <img src="assets/images/quizPageWireframe.jpg">
+    <img src="assets/images/endPageWireframe.jpg">
+    <img src="assets/images/mobileDevicesWireframes.jpg">
 
 &nbsp;      
 
