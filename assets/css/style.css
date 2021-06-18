@@ -370,6 +370,13 @@ footer {
     }
 }
 
+@media screen and (max-width: 600px) {
+    footer {         
+        font-size: 0.8rem;
+        padding-top: 1.5rem;  
+    }
+}
+
 @media screen and (max-width:579px)  {
     .playScoreBtn  {
         font-size: 0.8rem;
