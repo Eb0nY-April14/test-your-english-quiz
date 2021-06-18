@@ -33,6 +33,9 @@ let commendation = document.querySelector('#commendation');
 let goodCommendation = document.querySelector('#goodCommendation');
 let badCommendation = document.querySelector('#badCommendation');
 
+//SCORE_POINTS = 100;
+//let totalScoreOfGradePercent = SCORE_POINTS * MAX_QUESTIONS
+
 
 let currentQuestion = {}
 let availableQuestions = []
@@ -126,13 +129,8 @@ let questions = [ //questions was used in the video but i want to use myQuestion
 
 const MAX_QUESTIONS = 10;
 const SCORE_POINTS = 100;
+let totalScoreOfGradePercent = (SCORE_POINTS * MAX_QUESTIONS)    // - SCORE_POINTS
 
-/*startQuiz = () => {
-   questionCounter = 0;
-   score = 0;
-   availableQuestions = [...questions];
-   getNewQuestion();
-} */
 
 function startQuiz() {
    questionCounter = 0;
@@ -151,39 +149,13 @@ function startQuiz() {
  * this case is an html file called "end.html" in order to display the user's overall score to them, this
  * signifies the end of the quiz. 
  * 
- * This "getNewQuestion" function gets us the new question each time it's called */ 
-//getNewQuestion = () => {    // getNewQuestion function starts
-   /*if(availableQuestions.length === 0  || questionCounter > MAX_QUESTIONS) {
-      localStorage.setItem('mostRecentScore', score)
-
-      return window.location.assign('/end.html')  /* "/end.html" was used in the video tutorial  
-   } */
-
-   /* These 2 lines of code below will increment questionCounter and display the message: "Question 1 of 
-   10" and the number before 'of' updates itself as user progresses through the questions */
-  /* questionCounter++;
-   progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`
-   progressLevelFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%` */
-
-   //const randomQuestionIndex = Math.floor(Math.random() * availableQuestions.length);  /* const questionsIndex was used in the video tutorial */
-   //currentQuestion = availableQuestions[randomQuestionIndex]  /*keps track of the question the user is currently on */
-  // question.innerText = currentQuestion.question   //This will know the particular question asked
-
-
-   /*options.forEach(option => {
-       const number = option.dataset['number']
-       option.innerText = currentQuestion['option' + number]
-   }) */
-
-  // availableQuestions.splice(randomQuestionIndex, 1)
-   //receiveAnswers = true
-//}     // getNewQuestion function ends
+ */
 
 function getNewQuestion() {
    if(availableQuestions.length === 0  || questionCounter > MAX_QUESTIONS) {
       localStorage.setItem('mostRecentScore', score) 
 
-      return window.location.assign('end.html')  /* "/end.html" was used in the video tutorial */ 
+      //return window.location.assign('end.html')  /* "/end.html" was used in the video tutorial */ 
    }
 
    /* These 2 lines of code below will increment questionCounter and display the message: "Question 1 of 
@@ -228,7 +200,7 @@ options.forEach(option => {
            let finalScoreCounter = 0;
            if (optionToApply === 'rightAnswer') {
                incrementScore(SCORE_POINTS)
-               goodCommendation.innerText = `Yippee!!! You got ${score}, You Are doing great buddie!😊`
+               goodCommendation.innerText = `Yippee!!! You got the last Question right, You Are doing great buddie!😊`  //${score}
                finalScoreCounter += score
                badCommendation.innerText = ``
            } else {
@@ -236,16 +208,32 @@ options.forEach(option => {
               badCommendation.innerText = `Oops!!! A miss, Keep at it buddie!😦`
            }
 
-
            //let finalResult = document.querySelector('#finalResult');  
 
-           if(availableQuestions.length === 0  || questionCounter > MAX_QUESTIONS) {
             
-             //finalResult.innerText = `Well-done Buddie! Your Total Score is ${finalScoreCounter}`;
-         
-             console.log("Your final Score is " + finalScoreCounter) //used this to check my code and it displayed the correct Total Result
 
-             alert("Your final Score is " + finalScoreCounter)  //used this to check my code and it displayed the correct Total Result
+           if(availableQuestions.length === 0  || questionCounter > MAX_QUESTIONS) {
+            //progressText.innerText = ``
+            //progressText.innerText = `Question ${questionCounter - 1} of ${MAX_QUESTIONS}`
+            if (finalScoreCounter > 500 && finalScoreCounter <= 1000)  {
+               //goodCommendation.innerText = ``
+               //badCommendation.innerText = ``
+               goodCommendation.innerText = `Congratulations buddie😊!!! You got ${score} out of ${totalScoreOfGradePercent} You are a Pro!`;
+               console.log("Congratulations buddie😊!!! You got " + score + "out of " + totalScoreOfGradePercent + "You are a Pro!");
+               //badCommendation.innerText = ``
+            } else {    //less than or equal to 500
+               //goodCommendation.innerText = ``
+               //badCommendation.innerText = ``
+               badCommendation.innerText = `Oops, it's a fail buddie😭!!! You got ${score} out of ${totalScoreOfGradePercent} Better Luck Next Time!`;
+               console.log("Oops, it's a fail buddie😭!!! You got " + score + "out of  " + totalScoreOfGradePercent + "Better Luck Next Time!");
+            }
+
+
+        
+         
+            console.log("Your final Score is " + score) //used this to check my code and it displayed the correct Total Result
+
+             alert("Your final Score is " + score)  //used this to check my code and it displayed the correct Total Result
            }
           
 
@@ -261,10 +249,6 @@ options.forEach(option => {
 
     })
 
-    /*incrementScore = num => {
-      score +=num;
-      scoreText.innerText = score;
-   } */
 
    function incrementScore(num) {
       score +=num;
@@ -272,10 +256,6 @@ options.forEach(option => {
    } 
 
    startQuiz();
-
-   //console.log("The final Score is " + finalScoreCounter)
-
-  // alert("The final Score is " + finalScoreCounter)
 
 
    /********************************************************************************************** */
