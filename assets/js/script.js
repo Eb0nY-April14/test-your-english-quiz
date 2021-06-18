@@ -224,28 +224,24 @@ options.forEach(option => {
             optionToApply = 'wrongAnswer';
            }
 
-           //let questionCounter = 0
 
            let finalScoreCounter = 0;
            if (optionToApply === 'rightAnswer') {
                incrementScore(SCORE_POINTS)
                goodCommendation.innerText = `Yippee!!! You got ${score}, You Are doing great buddie!😊`
                finalScoreCounter += score
-               //questionCounter++
                badCommendation.innerText = ``
            } else {
-            //finalScoreCounter--
               goodCommendation.innerText = ``
               badCommendation.innerText = `Oops!!! A miss, Keep at it buddie!😦`
-              //questionCounter++
            }
 
 
-           let finalResult = document.querySelector('#finalResult');  
+           //let finalResult = document.querySelector('#finalResult');  
 
            if(availableQuestions.length === 0  || questionCounter > MAX_QUESTIONS) {
             
-             finalResult.innerText = `Well-done Buddie! Your Total Score is ${finalScoreCounter}`;
+             //finalResult.innerText = `Well-done Buddie! Your Total Score is ${finalScoreCounter}`;
          
              console.log("Your final Score is " + finalScoreCounter) //used this to check my code and it displayed the correct Total Result
 
@@ -253,8 +249,6 @@ options.forEach(option => {
            }
           
 
-
-           
            selectedOption.parentElement.classList.add(optionToApply); //This code adds the right answer to the parent element when the user gets the answer right
 
            setTimeout(() => {
