@@ -96,33 +96,32 @@ body {
     background-color: #D2B4DE;     /* Light Purple background colour */  
     box-sizing: border-box;
     width: 85%;
-    /*height: 100vh; 
-    max-height: 500px; */
     max-width: 100%;      /*830px;*/
     margin-left: auto;
     margin-right: auto;
     padding: 2.5%; 
     font-weight: bold;
     font-size: 1.5rem;
-    border: 4px solid black;
+    border: 4px solid black;   
+}
+
+#quiz {
+    margin-bottom: 6rem;
 }
 
 .option-container {
-    /*text-align: center; */
-    display: flex;      /*block;*/
+    
+    display: flex;      
     margin: 0 auto;
     margin-bottom: 0.8rem; 
-    width: 100%;            /*45%; */
+    width: 100%;            
     border-radius: 20px;
     background-color: rgb(18, 93, 255, 0.8);
-    /*font-size: 1.5rem; */
-    /*min-width: 80rem; */  /* I will remove this rule later cos it's the one that makes the blue border on each options go out of the border line */
 }
 
 .option-container:hover {
     cursor:pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(6, 103, 247, 0.5);
-    transform: scale(1.02);
+    transform: scale(1.02); 
     transform: transform 100ms;
 }
 
@@ -132,7 +131,6 @@ body {
 
 .option-text  {
     padding: 2rem; 
-    /*width: 100%; */
 } 
 
 #goodCommendation, #badCommendation {
@@ -188,46 +186,6 @@ body {
     margin-bottom: 1rem;
 }
 
-/******************************************************************************************************/
-/*                              END PAGE STYLES                                                   * /                                                                                                      /
-/*****************************************************************************************************/
-
-.endContainer  {               
-    background-color: #D2B4DE;     /* Light Purple background colour */  
-    box-sizing: border-box;
-    width: 85%;
-    max-width: 100%;      
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2.5%; 
-    font-weight: bold;
-    font-size: 1.5rem;
-    border: 4px solid black;
-}
-
-#end input {            /* Add style to the text input */
-    margin: 3rem 0;
-    border-radius: 4px;
-    padding: 0.5rem 8rem;
-    margin-bottom: 6rem;
-    font-size: 1.8rem;
-}
-
-#saveResultBtn {          /* Add style to the save score button */
-    padding: 0.2rem 2rem;
-    font-size: 1.8rem;
-    font-weight: bold;
-    font-family: cursive;
-    color: #000;
-    border-color: #000; 
-}
-
-#endFormText {       /* Add style to the h2 text displayed above the text input */
-    margin-top: 5rem;
-    font-family: "Nova Square", cursive;
-    font-weight: bold;
-}
-
 .homeBtn  {     /* Add style to the home link button on the end page that links a user back to the home page */
     color:#000;
     background: rgb(133, 127, 127);
@@ -243,6 +201,62 @@ body {
     background-color: #D2B4DE;  
     cursor: pointer;   
 }
+
+/******************************************************************************************************/
+/*                              END PAGE STYLES                                                   * /                                                                                                      /
+/*****************************************************************************************************/
+
+/*.endContainer  {               
+    background-color: #D2B4DE;     /* Light Purple background colour  
+    box-sizing: border-box;
+    width: 85%;
+    max-width: 100%;      
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2.5%; 
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: 4px solid black;
+} */
+
+/*#end input {            /* Add style to the text input 
+    margin: 3rem 0;
+    border-radius: 4px;
+    padding: 0.5rem 8rem;
+    margin-bottom: 6rem;
+    font-size: 1.8rem;
+} */
+
+/*#saveResultBtn {          /* Add style to the save score button 
+    padding: 0.2rem 2rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: cursive;
+    color: #000;
+    border-color: #000; 
+} */
+
+/*#endFormText {       /* Add style to the h2 text displayed above the text input 
+    margin-top: 5rem;
+    font-family: "Nova Square", cursive;
+    font-weight: bold;
+} */
+
+/*.homeBtn  {     /* Add style to the home link button on the end page that links a user back to the home page 
+    color:#000;
+    background: rgb(133, 127, 127);
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 1.5rem; 
+    padding: 1.2rem 2rem;
+    width: 30rem;
+    text-decoration: none;
+} */
+
+/*.homeBtn:hover  {
+    background-color: #D2B4DE;  
+    cursor: pointer;   
+} */
 
 
 /******************************************************************************************************/
