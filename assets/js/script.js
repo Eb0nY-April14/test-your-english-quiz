@@ -15,7 +15,14 @@ let currentQuestion = {}
 let availableQuestions = []
 let questionCounter = 0
 let score = 0
-let receiveAnswers = true     
+let receiveAnswers = true   
+
+/**
+ * Declaring variables used for putting sounds into the quiz game.
+ */
+let correctSound = new Audio("sounds/correct_sound.mp3");
+let incorrectSound = new Audio("sounds/incorrect_sound.mp3");
+
 
 
 let myQuestions = [ 
@@ -167,11 +174,14 @@ options.forEach(option => {
            let finalScoreCounter = 0;
            if (optionToApply === 'rightAnswer') {
                incrementScore(SCORE_POINTS)
-               goodCommendation.innerText = `Yippee!!! You got the last Question right, You Are doing great buddie!😊`  //${score}
+               goodCommendation.innerText = `Yippee!!! You got the last Question right, You Are doing great buddie!😊`  
+               correctSound.play()
                finalScoreCounter += score
                badCommendation.innerText = ``
            } else {
               goodCommendation.innerText = ``
+              incorrectSound.play()
+
               //badCommendation.innerText = `Oops!!! last Question was a miss, Keep at it buddie!😦`
               finalScoreCounter += score
               //badCommendation.innerText = ``
