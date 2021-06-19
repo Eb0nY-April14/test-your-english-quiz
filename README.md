@@ -301,19 +301,18 @@ View the GitHub Repository [here](https://github.com/Eb0nY-April14/rockhistory)
 
     * Content
 
-        * The text for the Home Page was compiled by me.
+        * The Home Page was created by me.
 
-        * The text for the 'History of Olumo Rock' page was obtained largely from the Ogun State Government official website and Wikipedia.
+        * The Quiz page was also created by me but with the help of an online tutorial video I watched from Youtube by Brian Design, putting my own twist to it in order to make it different from the author's finished quiz game app.  The styling and JavaScript code has few similarities and major   differences to show that I clearly understood what the author was doing and applied it my own way to the quiz game.   The link to the video tutorial is https://www.youtube.com/watch?v=f4fB9Xg2JEY
 
-        * The icons in the footer and some images were downloaded from different websites using Google Search.
 
     * Media
 
         * The Logo used for this website was designed by me using Wix Logo Maker. 
 
-        * The video used on the home page was made by Google Arts & Culture and taken from YouTube.
+        * The audio sound used on the quiz page and how to apply it to my JavaScript file was obtained from this link: https://docs.idew.org/code-trivia-app/advanced/code-mod-examples/sound-add-sound-effects-on-answer-clicks.
 
-        * The images used on the Home and Gallery Page were obtained from the following open source websites through Google Search:
+        * The font awesome play icon was used on the home page and obtained from the font awesome website while the emojis used on the quiz page for the heading texts and feedback messages were obtained from the following websites: used on the Home and Gallery Page were obtained from the following open source websites through Google Search:
 
             * https://www.travelwaka.com/         everything-you-need-to-know-about-olumo-rock-tourist-centre/
 
