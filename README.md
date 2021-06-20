@@ -308,21 +308,15 @@ View the GitHub Repository [here](https://github.com/Eb0nY-April14/rockhistory)
 
     * Media
 
-        * The Logo used for this website was designed by me using Wix Logo Maker. 
+        * The Logo used for this website was found through Google Search and obtained at https://image.winudf.com/v2/image1/b3JnLmNhbWJyaWRnZWVuZ2xpc2guYnJhdmkucXVpel9pY29uXzE1NTQ5NjExNjRfMDI4/icon.png?w=&fakeurl=1
 
-        * The audio sound used on the quiz page and how to apply it to my JavaScript file was obtained from this link: https://docs.idew.org/code-trivia-app/advanced/code-mod-examples/sound-add-sound-effects-on-answer-clicks.
+        * The audio sounds used on the quiz page and how to apply it to my JavaScript file was obtained from this link: https://docs.idew.org/code-trivia-app/advanced/code-mod-examples/sound-add-sound-effects-on-answer-clicks.
 
-        * The font awesome play icon was used on the home page and obtained from the font awesome website while the emojis used on the quiz page for the heading texts and feedback messages were obtained from the following websites: used on the Home and Gallery Page were obtained from the following open source websites through Google Search:
+        * The font awesome play icon was used on the home page and obtained from the font awesome website while the emojis used on the quiz page for the feedback messages and its corresponding usage tutorial were obtained from the following websites: 
 
-            * https://www.travelwaka.com/         everything-you-need-to-know-about-olumo-rock-tourist-centre/
+            * https://www.kirupa.com/html5/emoji.htm
 
-            * https://wakaholic.com/hiking-experience-olumo-rock/
-
-            * https://commons.wikimedia.org/wiki/File:Acuolpture_in_Olumo_Rock,_Ogun_State-Nigeria.jpg
-
-            * https://en.wikipedia.org/wiki/File:An_entrance_of_the_cave_in_Olumo_Rock.jpg
-
-            * https://nextbiteoflife.com/olumo-rock-abeokuta-nigeria/
+            * https://emojipedia.org/
 
 &nbsp; 
 
