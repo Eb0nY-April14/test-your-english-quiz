@@ -276,9 +276,9 @@ Testing User Stories from User Experience (UX) Section
 
 * The Project was deployed to GitHub Pages using the following steps:
 
-    * Log in to GitHub and under the "Repositories" section, click on the repository to deploy.
+    * Log in to GitHub and under the "Repositories" section, click on the "test-your-english-quiz" repository to deploy.
 
-    * At the top right of the next page, click on "Settings".
+    * At the top right of this repository, click on "Settings".
 
     * Scroll down the "Settings" page to locate the "GitHub Pages" section.
 
