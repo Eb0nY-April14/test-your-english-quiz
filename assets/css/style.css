@@ -273,22 +273,13 @@ footer {
     input#userName {
         margin-bottom: 1rem;
     }
-
 }
 
 @media screen and (max-width:1052px)  {
-    /*#saveResultBtn {
-        margin-bottom: 6rem;
-    } */
-
-    .homeBtn {
+   .homeBtn {
         font-size: 1.5rem;
         padding-top: 0.5rem;
     }
-
-    /*#end input {
-        margin-bottom: 2rem;
-    } */
 }
 
 @media screen and (max-width:1000px)  {
@@ -297,12 +288,6 @@ footer {
         padding-top: 0.8rem;
         margin-top: 5rem;
     }
-
-    /*#endFormText {
-        margin-top: 2rem;
-        font-size: 1.2rem;
-        margin-bottom: 1rem;
-    } */
 }
 
 @media screen and (max-width:930px)  {
@@ -337,12 +322,6 @@ footer {
     }
 }
 
-/*@media screen and (max-width:740px)  {
-    #end input {
-       width: 30%;
-   } 
-} */
-
 @media screen and (max-width:621px)  {
     #question  {
         font-size: 1rem;
@@ -351,19 +330,6 @@ footer {
     #home h1  {
         font-size: 1rem;
     }
-
-    /*#saveResultBtn {
-        font-size: 1rem; 
-        margin-bottom: 8rem;
-        margin-top: 1rem;
-    }
-
-    #end input {
-        margin: 3rem 0;
-        border-radius: 4px;
-        padding: 0.5rem 2rem;
-        font-size: 0.8rem;
-    } */
 }
 
 @media screen and (max-width: 600px) {
@@ -411,7 +377,6 @@ footer {
         height: 2rem;
         margin-top: 1rem;
         border-radius: 50px;
-       /* overflow: hidden; */
     }
 
     .heading {
@@ -427,33 +392,11 @@ footer {
         padding: 0;
     }
 
-    /*#end input {
-        margin: 3rem 0;
-        border-radius: 4px;
-        padding: 0.5rem 4rem;
-        margin-bottom: 2rem;
-        font-size: 1rem;
-        display: block;
-        margin: auto;  
-    }
-    
-    #saveResultBtn {
-        padding: 0.2rem 2rem;
-        font-size: 1rem;
-        margin-bottom: 8rem;
-    } */
-
     .homeBtn {
         font-size: 0.8rem;
         padding-top: 0.8rem;
         margin-top: 5rem;
-    }
-
-    /*#endFormText {
-        margin-top: 2rem;
-        font-size: 1rem;
-        margin-bottom: 1rem;
-    }  */ 
+    } 
 }
 
 @media screen and (max-width: 352px) {
@@ -464,10 +407,6 @@ footer {
         padding-right: 0.3rem;
         padding-bottom: 0.1rem;
     }
-
-    /*#saveResultBtn {
-        margin-bottom: 4rem;
-    } */
 }
 
 
