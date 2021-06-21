@@ -172,11 +172,10 @@ options.forEach(option => {
 
            let finalScoreCounter = 0;
            if (optionToApply === 'rightAnswer') {
-               incrementScore(SCORE_POINTS)
-               goodCommendation.innerText = `Yippee!!! You got the last Question right, You Are doing great buddie!😊`  
+               incrementScore(SCORE_POINTS) 
                correctSound.play()
                finalScoreCounter += score
-               badCommendation.innerText = ``
+               //badCommendation.innerText = ``
            } else {
               goodCommendation.innerText = ``
               incorrectSound.play()
