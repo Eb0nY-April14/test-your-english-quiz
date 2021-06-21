@@ -175,26 +175,21 @@ options.forEach(option => {
                incrementScore(SCORE_POINTS) 
                correctSound.play()
                finalScoreCounter += score
-               //badCommendation.innerText = ``
            } else {
               goodCommendation.innerText = ``
               incorrectSound.play()
-              //badCommendation.innerText = `Oops!!! last Question was a miss, Keep at it buddie!😦`
               finalScoreCounter += score
            }
 
 
            if(availableQuestions.length === 0  || questionCounter > MAX_QUESTIONS) {
+
             if (finalScoreCounter > 500 && finalScoreCounter <= 1000)  {
-              
                goodCommendation.innerText = `Congratulations buddie😊!!! Your Final score is ${score} out of ${totalScoreOfGradePercent}, You are a Pro!`;
-               //console.log("Congratulations" + userName + "buddie😊!!! You got " + score + "out of " + totalScoreOfGradePercent + "You are a Pro!");
-               
             } else {    //less than or equal to 500
-               
                badCommendation.innerText = `Oops, it's a fail buddie😭!!! Your Final score is ${score} out of ${totalScoreOfGradePercent}, Better Luck Next Time!`;
-              // console.log("Oops, it's a fail buddie😭!!! You got " + score + "out of  " + totalScoreOfGradePercent + "Better Luck Next Time!");
             }
+            
            }  
 
            selectedOption.parentElement.classList.add(optionToApply); //This code adds the right answer to the parent element when the user gets the answer right
