@@ -7,8 +7,9 @@
 
 Spelling Bee is an online Quiz game that aims at building users vocabulary in order to improve their ability to spell English words.  Users will learn a lot through play since it is a fun game that cuts across all ages, which means that it can be played and enjoyed by all to test how much of their vocabulary they know and if they can spell the words and write them down correctly in order to make a complete sentence. Sometimes, even simple words in English language that we pronounce and use everyday can throw someone off balance when it comes to spelling and writing them down correctly especially for CV and cover letter preparation, formal letter or any where that first impression matters and one's spelling has to be top-notch to prevent your CV from being shoved aside by potential employers due to poor spelling mistakes. 
 
+&nbsp;
 
-<img src="amIresponsive-myWebsite.JPG">
+<img src="assets/images/amIresponsive-myQuizWebsite.PNG">
 
 &nbsp;
 
@@ -28,7 +29,7 @@ It is designed to be responsive on all device sizes and thereby accessible on a 
 
  &nbsp; 
 
-    The entire user interface is divided into three parts namely:
+    The entire user interface is divided into two parts namely:
 
       i. Home Page
 
@@ -42,10 +43,12 @@ It is designed to be responsive on all device sizes and thereby accessible on a 
 
     * See the 'Home Page' Screenshot below:
 
-    <img src="assets/images/homePageUsername1.PNG">
-    <img src="assets/images/homePageUsername2.PNG">
     <img src="assets/images/homePageNoUsername1.PNG">
     <img src="assets/images/homePageNoUsername2.PNG">
+    &nbsp; 
+    <img src="assets/images/homePageUsername1.PNG">
+    <img src="assets/images/homePageUsername2.PNG">
+    
 
 &nbsp; 
 
@@ -60,6 +63,7 @@ It is designed to be responsive on all device sizes and thereby accessible on a 
 
     <img src="assets/images/quizPageBeforePlay1.PNG">
     <img src="assets/images/quizPageBeforePlay2.PNG">
+    &nbsp; 
     <img src="assets/images/quizPageAfterPlay1.PNG">
     <img src="assets/images/quizPageAfterPlay2.PNG">
 
@@ -116,7 +120,9 @@ User Experience (UX)
 
         *  Typography
 
-            * Google's 'Raleway' and 'Nova Square' typeface was repeatedly used on every page of this website but with variations in sizes and font weights. Lora is a well-balanced contemporary serif and it is a text typeface with moderate contrast well suited for body text. The source is: url('https://fonts.googleapis.com/css2?family=Lora&display=swap'). This font is one of the most common and frequently used web safe fonts in HTML and most browsers recognise it.
+            * Google's 'Raleway' and 'Nova Square' typeface was repeatedly used on every page of this website but with variations in sizes and font weights. 
+            
+            Lora is a well-balanced contemporary serif and it is a text typeface with moderate contrast well suited for body text. The source is: url('https://fonts.googleapis.com/css2?family=Lora&display=swap'). This font is one of the most common and frequently used web safe fonts in HTML and most browsers recognise it.
 
 
         * Imagery
