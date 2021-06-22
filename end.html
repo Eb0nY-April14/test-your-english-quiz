@@ -22,20 +22,45 @@
 
     <div class="endContainer">
         <div id="end">
-            <h2 id="finalResult"></h2>  
+            <div id="finalResult"></div>  
+
+            <!-- <form id="login-Form">        
+              <p>Please Create your Username before you Play:</p>
+              <input type="text" name="username" id="userName" placeholder="only alphabets are allowed" required />
+              <input type="submit" value="Submit">
+            </form>   -->
             
-               <form class="endFormContainer">
-                    <h2 id="endFormText"> </h2>   <!-- Please Enter your name below to get your score for recognition! -->
-                   <!-- <input type="text" id="fullname" name="full-name"> 
-                   <button class="endBtn" id="saveResultBtn" type="submit" onclick="saveHighScore(event)" disabled>Save Score</button> -->       
+               <form id="login-Form">
+                <p>Please Create your Username before you Play:</p>
+                <input type="text" name="username" id="userName" placeholder="only alphabets are allowed" required />
+                <input type="submit" value="Submit">
                 </form>  
                 
             <!--<a href="quiz.html" class="quizBtn">Play Again!<i class="fas fa-play"></i></a>  -->
-               <!-- <a href="index.html" class="homeBtn">Back to Home Page to Play Again!<i class="fas fa-home"></i></a>   -->
+            <a href="index.html" class="homeBtn">Back to Home Page to Play Again!<i class="fas fa-home"></i></a>   
         </div>
     </div>
 
-    <script src="assets/js/script.js"></script> 
+ <!--   <script>
+        let loginForm = document.getElementById('login-Form')
+        //let welcome = document.getElementById('#welcome');
+    
+        loginForm.addEventListener('submit', function(event) {
+          event.preventDefault()  //Prevents the form from autosubmitting
+          let userName = document.getElementById('userName').value  
+          //let welcome = document.getElementById('#welcome');
+          let html = `
+          <h1>Welcome ${userName} !!! Ready to Play and Have some Fun?</h1>
+          ` ; 
+          let finalResultDiv = document.getElementById('finalResult');
+          finalResultDiv.innerHTML = html;
+          console.log("Your Username is: " + userName)
+        })  -->
+    
+        
+      </script>
+
+  <!--  <script src="assets/js/script.js"></script> -->
     
 </body>
 </html>
