@@ -20,11 +20,11 @@ It is designed to be responsive on all device sizes and thereby accessible on a 
 
 * Heading Bar
 
-    * It is uniform across all the three pages and consists of the logo and Spelling Bee quiz name nicely placed beside each other and aligned to the centre to keep in line with the overall structure of the page.
+    * It is uniform across all the two pages and consists of the logo and Spelling Bee quiz name nicely placed beside each other and aligned to the centre to keep in line with the overall structure of the page.
 
     * See the 'Heading Bar' Screenshot below:
 
-    <img src="assets/images/.JPG">
+    <img src="assets/images/headerBar.PNG">
 
  &nbsp; 
 
@@ -34,38 +34,44 @@ It is designed to be responsive on all device sizes and thereby accessible on a 
 
       ii. Quiz Page
 
-      iii. End Page (Score Display Area) 
-
 
 * Home Page 
 
-    * This is the page that appears as a user clicks on the url link and lands on the page. It is defined from the rest the of the screen page by a black border with a heading bar at the top. It welcomes the user and aims at making them feel relaxed and tune them in to a playful fun mode while at the same time learning through their interaction with the quiz app. It consists of two buttons located at the top centre of the page which are the 'play' (the user clicks this to play the quiz) and 'high score' (the user clicks this and it displays thir score) buttons and also a welcome message nicely positioned at the centre of the page.
+    * This is the page that appears as a user clicks on the url link and lands on the page. It is defined from the rest the of the screen page by a black border with a heading bar at the top. It welcomes the user and aims at making them feel relaxed and tune them in to a playful fun mode while at the same time learning through their interaction with the quiz app. It consists of an input textbox to allow the user input a username which will be used to display a personalised welcome message to the user and a submit button to submit the name input. There is also a play button at the bottom centre of the page which when clicked takes the user to the quiz page in order to play the quiz. 
     For mobile view, most of these features on this page will stack on top of each other for great user experience and responsiveness.
+
+    * See the 'Home Page' Screenshot below:
+
+    <img src="assets/images/homePageUsername1.PNG">
+    <img src="assets/images/homePageUsername2.PNG">
+    <img src="assets/images/homePageNoUsername1.PNG">
+    <img src="assets/images/homePageNoUsername2.PNG">
 
 &nbsp; 
 
 * Quiz Page
 
-    * This is the page that the user interacts with in orer to play the quiz. Like the home page, it is defined from the rest the of the screen page by a black border with a heading bar at the top in order to keep in line with uniformity across all  three pages. It consists of 10 questions with each having four options to choose their answer from. Each of the options are displayed inside a button with a default background colour of blue. If a user gets the answer right, the button colour changes to green and a "pat-in-the-back" message pops up to congratulate and spur them to do more and if a user misses the answer, the button colour changes to red and a message pops up to tell them they missed and tell them they can do better.
+    * This is the page that the user interacts with in order to play the quiz. Like the home page, it is defined from the rest the of the screen page by a black border with a heading bar at the top in order to keep in line with uniformity across all  three pages. It consists of 10 questions with each having four options to choose their answer from. Each of the options are displayed inside a button with a default background colour of blue. If a user gets the answer right, the button colour changes to green and a sound that depicts that the answer is correct is made and likewise if a user misses the answer, the button colour changes to red and a sound that depicts that the answer is incorrect is made.
     A user's score is displayed at the top right hand corner of the page while question number tracker is displayed at the top left corner of the page to let the user know which question they are on.
-    The feedback message pops up underneath the score and question tracker area and is nicely centred so it can be clearly seen by the user as they play along.
+    At the end of play, The feedback message is displayed underneath the score and question tracker area and is nicely centred so it can be clearly seen by the user as they play along. The aim of this message is to give the user feedback on how they performed by either displaying a congratulatory message of  or a failure message. The feedback display signifies the end of the quiz and a user can either click on the "back to home page button" on the quiz page to get redirected back to the home page to play again or close the quiz by closing the browser to quit playing.
     For mobile view, most of these features on this page will stack on top of each other for great user experience and responsiveness.
 
     * See the 'Quiz Page' Screenshot below:
 
-    <img src="assets/images/.JPG">
+    <img src="assets/images/quizPageBeforePlay1.PNG">
+    <img src="assets/images/quizPageBeforePlay2.PNG">
+    <img src="assets/images/quizPageAfterPlay1.PNG">
+    <img src="assets/images/quizPageAfterPlay2.PNG">
 
  &nbsp; 
 
-* End Page (Score Display Area)       
+ * Footer Bar
 
-    * This is the page that the user is directed to at the end of the quiz game. Like the other pages, it is defined from the rest the of the screen page by a black border with a heading bar at the top in order to keep in line with the uniformity already established with other pages. The overall score is displayed at the top centre of the page and a text input box is also provided to allow the user fill in their names for onward use. 
-    Finally, the "Back to Home Page" button is displayed at the bottom of the page that redirects the user back to the home page if they wish to play again.
-    For mobile view, most of these features on this page will stack on top of each other for great user experience and responsiveness.
-    
-    * See the 'End Page' Screenshot below:
+    * It is uniform across all the two pages and consists of the copyright symbol with the name of the author to the bottom left of the page and the "Top" button located at the bottom right of the page that easily takes a user back to the top of the page instead of manually using the scroll bar which can be annoying.  
 
-    <img src="assets/images/.JPG">
+    * See the 'Footer Bar' Screenshot below:
+
+    <img src="assets/images/footerBar.PNG">
 
  &nbsp; 
 
@@ -140,9 +146,9 @@ User Experience (UX)
 
 * Tools Used
 
-    * uizard wireframe for prototyping all the four pages of the website.
+    * No tool was used for prototyping but was done manually by drawing each of them out on paper.
 
-    * snipping tool to capture screenshots of validator results, website pages and images used in the README file.
+    * Snipping tool to capture screenshots of validator results, website pages and images used in the README file.
 
 * Issues Encountered and Resolved
 
