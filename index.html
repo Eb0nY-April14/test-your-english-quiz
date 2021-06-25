@@ -20,15 +20,29 @@
 
     <div class="homeContainer">
         <div id="home">  
-          <div id="welcome"></div> 
+         <div id="welcome"></div> 
           <form id="login-Form">        
               <p>Please Create a Username before you Play:</p>
               <input type="text" name="username" id="userName" placeholder="Enter your name here" required />
-              <input type="submit" id="submitBtn" value="Submit">
+              <input type="submit" id="submitBtn" value="Submit" onclick="showInput()">
             </form>  
-            <a href="quiz.html" id="playBtn"class="playScoreBtn">Play <i class="fas fa-play"></i></a>
+            <a href="quiz.html" id="playBtn"class="playScoreBtn"> Play  <i class="fas fa-play"></i></a>
         </div>
-    </div>
+    </div>  
+
+
+    <!-- <div class="homeContainer">
+      <div id="home">  
+        <div id="welcome"></div> 
+        <form id="login-Form">        
+            <p>Please Create a Username before you Play:</p>
+            <input type="text" name="username" id="userName" placeholder="Enter your name here" required />
+           <input type="submit" id="submitBtn" value="Submit" onclick="showInput()"> 
+           <button onclick="showInput()"><a href="welcome.html" id="playBtn"class="playScoreBtn"> Submit  <i class="fas fa-play"></i></a></button>
+          </form>  
+          <a href="quiz.html" id="playBtn"class="playScoreBtn"> Play  <i class="fas fa-play"></i></a> 
+      </div>
+  </div>  -->
  
     <footer>
       <p>
@@ -39,20 +53,37 @@
       <a id="topBtn" href="#top">Top</a>
     </footer>
 
-  <script>
+  <!--  <script>
+      function showInput()  {
+        event.preventDefault()
+        let userName = document.getElementById('userName').value;
+        console.log("Your Username is: " + userName)
+
+        let html = `
+      <h1>Welcome ${userName}!!! Ready to Play and Have some Fun?</h1>
+      ` ; 
+     let welcomeDiv = document.getElementById('welcome');
+     welcomeDiv.innerHTML = html;
+        //document.getElementById('welcome').textContent = userName;
+      }
+    </script>  -->
+
+   <script>
     let loginForm = document.getElementById('login-Form')
 
     loginForm.addEventListener('submit', function(event) {
       event.preventDefault()  //Prevents the form from autosubmitting
-      let userName = document.getElementById('userName').value  
+      let userName = document.getElementById('userName').value
+      console.log("Your UserName is: " + userName)  
       
       let html = `
       <h1>Welcome ${userName}!!! Ready to Play and Have some Fun?</h1>
       ` ; 
       let welcomeDiv = document.getElementById('welcome');
       welcomeDiv.innerHTML = html;
+      loginForm.style.display = "none";
     })  
-  </script>  
+  </script> 
     
 </body>
 </html>
