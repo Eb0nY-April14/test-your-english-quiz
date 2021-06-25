@@ -107,13 +107,13 @@ let myQuestions = [
 }
 ]
 
-const MAX_QUESTIONS = 11;
+const MAX_QUESTIONS = 10;            
 const SCORE_POINTS = 100;
-let totalScoreOfGradePercent = (SCORE_POINTS * MAX_QUESTIONS) - SCORE_POINTS
+let totalScoreOfGradePercent = (SCORE_POINTS * MAX_QUESTIONS);          
 
 
 function startQuiz() {
-   questionCounter = 0;
+   questionCounter = -1;
    score = 0;
    availableQuestions = [...myQuestions];
    getNewQuestion();
@@ -128,7 +128,7 @@ function startQuiz() {
  
 
 function getNewQuestion() {      // getNewQuestion function starts
-   if(availableQuestions.length === 0  || questionCounter > MAX_QUESTIONS) {
+   if(availableQuestions.length === 0  || questionCounter === MAX_QUESTIONS) {
       localStorage.setItem('mostRecentScore', score) 
    }
 
