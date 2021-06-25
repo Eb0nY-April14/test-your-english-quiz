@@ -262,7 +262,7 @@ footer {
 /*****************************************************************************************************/
 
 @media screen and (max-width:3000px)  {
-    .homeBtn {
+    a.homeBtn {
         font-size: 1.5rem; 
         padding: 0.8rem 1rem;     
         margin-bottom: 3rem; 
