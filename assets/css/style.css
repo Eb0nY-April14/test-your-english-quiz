@@ -151,7 +151,7 @@ footer {
     width: 85%;
     max-width: 100%;      
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
     padding: 2.5%; 
     font-weight: bold;
     font-size: 1.5rem;
@@ -159,13 +159,12 @@ footer {
 }
 
 .option-container {
-    
     display: flex;      
-    margin: 0 auto;
+    margin: 0 auto; 
     margin-bottom: 0.8rem; 
-    width: 100%;            
-    border-radius: 20px;
-    background-color: rgb(18, 93, 255, 0.8);
+    width: 50%;                 
+    border-radius: 10px;
+    background-color: rgb(18, 93, 255, 0.8); 
 }
 
 .option-container:hover {
@@ -179,12 +178,12 @@ footer {
 }
 
 .option-pfix  {
-    padding: 2rem 2.5rem; 
+    padding: 1rem 1.5rem;       
     font-family: "Raleway", cursive;
 } 
 
 .option-text  {
-    padding: 2rem; 
+    padding: 1rem;                
     font-family: "Raleway", cursive;
 } 
 
@@ -242,7 +241,7 @@ footer {
     margin-bottom: 1rem;
 }
 
-.homeBtn  {     /* Add style to the home link button on the end page that links a user back to the home page */
+.homeBtn  {     
     color:#000;
     background: rgb(133, 127, 127);
     border-radius: 4px;
@@ -251,7 +250,6 @@ footer {
     padding: 1.2rem 2rem;
     width: 30rem;
     text-decoration: none;
-    /*margin-top: 3rem; */
 }
 
 .homeBtn:hover  {
@@ -266,24 +264,12 @@ footer {
 /*                              MEDIA QUERIES STYLES                                                * /                                                                                                      /
 /*****************************************************************************************************/
 
-/*@media screen and (max-width:3000px)  {
-    a.homeBtn {
-        font-size: 1.5rem; 
-        padding: 0.8rem 1rem;     
-        margin-bottom: 3rem; 
-    }
-
-    #optionContainer4 {
-        margin-bottom: 4rem;
-    } 
-} */
-
 @media screen and (max-width:1080px)  {
     input#submitBtn {
         margin-bottom: 6rem;
     }
 
-    #login-Form > p{
+    #login-Form > p {
         margin-bottom: 1rem;
     }
 
@@ -316,12 +302,6 @@ footer {
   } 
 
   @media screen and (max-width:850px)  {
-    /*a.homeBtn {
-        font-size: 0.8rem;
-        padding-top: 0.8rem;
-        margin-top: 3rem;
-    } */
-
     div#optionContainer4.option-container {
         margin-bottom: 2rem;
     } 
@@ -338,14 +318,11 @@ footer {
         margin-bottom: 2rem;
         margin-top: 3rem;
     }
-
   }
 
   @media screen and (max-width:768px)  {
     .option-container  {
-        min-width: 20rem; 
-        margin-bottom: 1rem;  /*0.5rem; */
-        width: 45%;
+        margin-bottom: 1rem;  
         border-radius: 4px;
         font-size: 0.8rem;
     }
@@ -355,13 +332,6 @@ footer {
         width: 20rem;
     }
 }
-
-/*@media screen and (max-width:695px)  {
-    .homeBtn {
-        padding-bottom: 0.7rem;
-        width: 20rem;
-    } 
-} */
 
 @media screen and (max-width:621px)  {
     #question  {
@@ -422,30 +392,10 @@ footer {
 
     .heading {
         font-size: 1.5rem;
-    }
-
-    .option-container {
-        text-align: center; 
-        display: block; 
-        margin-bottom: 0.5rem;
-        border-radius: 2px;
-        font-size: 1rem;
-        padding: 0;
-    }
-
-   /* .homeBtn {
-        font-size: 0.8rem;
-        padding-top: 0.8rem;
-        margin-top: 5rem;
-    } */
+    }  
 }
 
-/*@media screen and (max-width: 400px) { 
-    .option-container {
-        width: 30%;
-    } */
-
-@media screen and (max-width: 370px) { /* 352px max-width before */
+@media screen and (max-width: 370px) { 
    .homeBtn {
         font-size: 0.8rem;
         padding-top: 0.5rem;
@@ -455,7 +405,14 @@ footer {
     }
 } 
 
+@media screen and (max-width: 320px) { 
+    .option-container {
+        font-size: 0.8rem;
+        width: 80%;  
+    } 
+}
 
+  
 
 
 
