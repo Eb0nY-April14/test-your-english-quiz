@@ -54,9 +54,9 @@ It is designed to be responsive on all device sizes and thereby accessible on a 
 
 * Quiz Page
 
-    * This is the page that the user interacts with in order to play the quiz. Like the home page, it is defined from the rest the of the screen page by a black border with a heading bar at the top in order to keep in line with uniformity across all  three pages. It consists of 10 questions with each having four options to choose their answer from. Each of the options are displayed inside a button with a default background colour of blue. If a user gets the answer right, the button colour changes to green and a sound that depicts that the answer is correct is made and likewise if a user misses the answer, the button colour changes to red and a sound that depicts that the answer is incorrect is made.
+    * This is the page that the user interacts with in order to play the quiz. Like the home page, it is defined from the rest the of the screen page by a black border with a heading bar at the top in order to keep in line with uniformity across the two pages. It consists of 10 questions with each having four options to choose an answer from. Each of the options are displayed inside a button with a default background colour of blue. If a user gets the answer right, the button colour changes to green and a sound that depicts that the answer is correct is made and likewise if a user misses the answer, the button colour changes to red and a sound that depicts that the answer is incorrect is made.
     A user's score is displayed at the top right hand corner of the page while question number tracker is displayed at the top left corner of the page to let the user know which question they are on.
-    At the end of play, The feedback message is displayed underneath the score and question tracker area and is nicely centred so it can be clearly seen by the user as they play along. The aim of this message is to give the user feedback on how they performed by either displaying a congratulatory message of  or a failure message. The feedback display signifies the end of the quiz and a user can either click on the "back to home page button" on the quiz page to get redirected back to the home page to play again or close the quiz by closing the browser to quit playing.
+    At the end of play, The feedback message is displayed underneath the score and question tracker area and is nicely centred so it can be clearly seen by the user at the end of the quiz. The aim of this message is to give the user feedback on how they performed by either displaying a congratulatory message or a failure message. The feedback display signifies the end of the quiz and a user can either click on the "back to home page button" on the quiz page to get redirected back to the home page to play again or close the quiz by closing the browser to quit playing.
     For mobile view, most of these features on this page will stack on top of each other for great user experience and responsiveness.
 
     * See the 'Quiz Page' Screenshot below:
@@ -81,12 +81,11 @@ It is designed to be responsive on all device sizes and thereby accessible on a 
 
 How the Quiz Game works (Use Cases):
 
- It is a multiple choice question whereby a set of ten questions are provided to the user one after the other in which each is an uncomplete sentence and the job of the user is to fill in each of the blank spaces with the correct word (answer), checking out the options provided carefully before selecting their choice as they look the same to trick the user into picking the wrong answer.  It informs the user at the bottom of the Quiz screen the number of questions he got right and the ones missed by updating its content as the user goes through the ten questions.
- At the end of the quiz, it gives a final verdict in the following way:
+ It is a multiple choice question whereby a set of ten questions are provided to the user one after the other in which each is an uncomplete sentence and the job of the user is to fill in each of the blank spaces with the correct word (answer), checking out the options provided carefully before selecting their choice as they look the same to trick the user into picking the wrong answer. The score is displayed at the top right corner of the Quiz screen which updates itself as the user goes through the ten questions based on whether the answer is right or wrong.
+ At the end of the quiz, it gives a final feedback/verdict in the following way:
 
- a. If a user scores between 7 and 10 inclusive, it congratulates him by displaying an alert that says "Congratulations ${username}, that was  fantastic!" ( ${username} is a placeholder for the system to fill in each user's name).  
- b. If a user scores between 4 and 6 inclusive, it tells the user he's tried by displaying an alert that says "Well-done ${username} but there is room for improvement!".  
- c. If a user scores between 0 and 3 inclusive, it tells the user he's failed by displaying an alert that says "Oops you failed ${username}, please try again!". 
+ a. If a user scores between 600 and 1,000 inclusive, it  displays the score obtained along with a congratulatory message.
+ b. If a user scores between 0 and 500 inclusive, it displays their score likewise along with a message of failure.
  
 &nbsp; 
 
@@ -101,37 +100,44 @@ User Experience (UX)
 
         b) I want to be able to submit my answer and get response quickly on whether I'm right or wrong.
 
-        c) I want to be able to know how many I got right and the ones I missed with the correct answer displayed.
+        c) I want to be able to get a feedback message on how well I performed in the quiz.
+
+        d) I want to be able to return easily to the home page from the quiz page without using the browser back button in order to play again.
+
+        e) I want to be able to go back to the top of the page easily from the bottom without using the scroll bar.
 
         
     * Returning Visitor Goals
 
-        a) I want to be able to find relevant information about the opening hours, entry fee etc. to see if there are any changes.
+         a) I want to be able to submit my answer and get response quickly on whether I'm right or wrong.
 
-        b) I want to find the best way to get in contact with the tourist centre with any questions or feedbacks I may have.
+        b) I want to be able to get a feedback message on how well I performed in the quiz.
 
-        c) I want to be able to connect to their social media links to provide feedback and get up to date information about upcoming events.
+        c) I want to be able to return easily to the home page from the quiz page without using the browser back button in order to play again.
+
+        d) I want to be able to go back to the top of the page easily from the bottom without using the scroll bar.
 
     * Design
 
         * Colour Scheme
 
-            * Background colour of a lighter shade of purple was used with a black border. It blends well into the font colour of black which is predominantly used for texts on every page and grey background colour for the buttons.
+            * Background colour of a lighter shade of purple was used with a black border. It blends well into the font colour of black which is predominantly used for texts on every page and grey background colour for the buttons which changes to light purple with a black border on hover.
 
         *  Typography
 
             * Google's 'Raleway' and 'Nova Square' typeface was repeatedly used on every page of this website but with variations in sizes and font weights. 
-            
-            Lora is a well-balanced contemporary serif and it is a text typeface with moderate contrast well suited for body text. The source is: url('https://fonts.googleapis.com/css2?family=Lora&display=swap'). This font is one of the most common and frequently used web safe fonts in HTML and most browsers recognise it.
-
+            'Nova Square' is similar to cursive typeface and was chosen because it is modern and stylish in nature which makes it best suited for quiz/game apps. It was used to display the welcome message on the home page and feedback message on the quiz page. 
+            Also, 'Raleway' typeface complements 'Nova Square' really well and was used for the rest of the texts across the two pages.
 
         * Imagery
 
-            * Imagery is important. The large image of the Olumo Rock is used to capture the users imagination and attract them to visit the tourist centre.  It is designed to take up almost the full width of the 'Home' Page to make it striking and catch the user's attention.  Also, the Gallery Page consists of a wide range of pictures for users to view and be inspired for a visit and also enjoy.
+            * There isn't much images in the quiz except for the logo that was used alongside the name of the quiz game at the top of each page and emojis (both smiley and sad faces) were used with the display of feedback message based on the user's score.
+
+&nbsp;            
 
 # Wireframes
 
- For prototyping, the wireframes were designed manually by hand without using any automated tool in order to bring this idea to life. The screenshots of all the three pages the quiz will have namely home, quiz and end pages   and its look on mobile devices can be viewed below:
+ For prototyping, the wireframes were designed manually by hand without using any automated tool in order to bring this idea to life. The screenshots of the two pages the quiz will have namely home and quiz pages   and their looks on mobile devices can be viewed below:
 
     <img src="asssets/images/homePageWireframe.jpg">
     <img src="assets/images/quizPageWireframe.jpg">
@@ -148,6 +154,8 @@ User Experience (UX)
 
     * CSS3
 
+    * JavaScript
+
 &nbsp; 
 
 * Tools Used
@@ -155,6 +163,8 @@ User Experience (UX)
     * No tool was used for prototyping but was done manually by drawing each of them out on paper.
 
     * Snipping tool to capture screenshots of validator results, website pages and images used in the README file.
+
+    * amIresponsive was used to simulate how responsive the quiz game developed is on desktop, laptop, tablet and smartphones. 
 
 * Issues Encountered and Resolved
 
