@@ -170,7 +170,7 @@ footer {
 .option-container:hover {
     cursor:pointer;
     transform: scale(1.02); 
-    transform: transform 100ms;
+    transition: transform 100ms;
 }
 
 #optionContainer4 {
@@ -194,8 +194,6 @@ footer {
     margin-top: 2rem;
 }
 
-/* The 2 set of rules below will make the answer/option button turns green if the user's
- answer is correct and red if otherwise */
 .rightAnswer  {
     background: rgb(0, 255, 0);
 }
@@ -311,6 +309,7 @@ footer {
     #userName {
         font-size: 0.8rem; 
         width: 15rem;
+        padding: 0.5rem 1rem;
     }
     
     #submitBtn {
@@ -410,6 +409,21 @@ footer {
         font-size: 0.8rem;
         width: 80%;  
     } 
+}
+
+@media screen and (max-width: 301px) { 
+    #userName {
+        padding: 0.5rem;        
+        width: 10rem;       
+      }
+}
+
+@media screen and (max-width: 280px) { 
+  #userName {
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;       
+    width: 12rem;        
+  }
 }
 
   
