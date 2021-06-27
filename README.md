@@ -219,6 +219,16 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 
     <img src="validatorCheckerResults/cssStyle.PNG"> 
 
+* JSHint online tool was used to validate the JavaScript code named script.js with only warnings shown. The screenshots of the testing result is shown below:
+
+    *  script.js Result:
+
+    <img src="validatorCheckerResults/jsScript1.PNG"> 
+    <img src="validatorCheckerResults/jsScript2.PNG"> 
+    <img src="validatorCheckerResults/jsScript3.PNG"> 
+
+
+
 Testing User Stories from User Experience (UX) Section
 
 * First Time Visitor Goals
