@@ -206,25 +206,18 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 
     * Home Page Result:
 
-    <img src="validatorCheckerResults/homePage.JPG"> 
+    <img src="validatorCheckerResults/homePage.PNG"> 
 
-    * History of Olumo Rock Page Result:
+    * Quiz Page Result:
 
-    <img src="validatorCheckerResults/historyPage.JPG"> 
+    <img src="validatorCheckerResults/quizPage.PNG"> 
 
-    * Gallery Page Result:
-
-    <img src="validatorCheckerResults/galleryPage.JPG"> 
-
-    * Contact Us Page Result:
-
-    <img src="validatorCheckerResults/contactUsPage.JPG"> 
-
+    
 * W3C CSS Validator
 
-    * style.css Result Result:
+    * style.css Result:
 
-    <img src="validatorCheckerResults/cssStyle.JPG"> 
+    <img src="validatorCheckerResults/cssStyle.PNG"> 
 
 Testing User Stories from User Experience (UX) Section
 
