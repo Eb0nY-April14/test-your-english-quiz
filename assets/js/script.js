@@ -2,20 +2,20 @@
  * The document.querySelector() & document.querySelectorAll() returns the first element within the document that matches the 
 specified selector or group of selectors. They both return null if no matches are found.
  */
-const question = document.querySelector('#question');  
-const options = Array.from(document.querySelectorAll('.option-text'));  
-const progressText = document.querySelector('#progressText');   
-const scoreText = document.querySelector('#score'); 
-const progressLevelFull = document.querySelector('#progressLevelFull'); 
+let question = document.querySelector('#question');  
+let options = Array.from(document.querySelectorAll('.option-text'));  
+let progressText = document.querySelector('#progressText');   
+let scoreText = document.querySelector('#score'); 
+let progressLevelFull = document.querySelector('#progressLevelFull'); 
 
 let goodCommendation = document.querySelector('#goodCommendation');
 let badCommendation = document.querySelector('#badCommendation');
 
-let currentQuestion = {}
-let availableQuestions = []
-let questionCounter = 0
-let score = 0
-let receiveAnswers = true   
+let currentQuestion = {};
+let availableQuestions = [];
+let questionCounter = 0;
+let score = 0;
+let receiveAnswers = true;   
 
 /**
  * Declaring variables used for putting sounds into the quiz game.
@@ -105,7 +105,7 @@ let myQuestions = [
   option4: 'contrebutione',
   correctAnswer: 2,
 }
-]
+];
 
 const MAX_QUESTIONS = 10;            
 const SCORE_POINTS = 100;
@@ -129,38 +129,38 @@ function startQuiz() {
 
 function getNewQuestion() {      // getNewQuestion function starts
    if(availableQuestions.length === 0  || questionCounter === MAX_QUESTIONS) {
-      localStorage.setItem('mostRecentScore', score) 
+      localStorage.setItem('mostRecentScore', score); 
    }
 
    /* These 2 lines of code below will increment questionCounter and display the message: "Question 1 of 
    10" and the number before 'of' updates itself as user progresses through the questions */
    questionCounter++;
-   progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`
-   progressLevelFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`
+   progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`;
+   progressLevelFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`;
 
    const randomQuestionIndex = Math.floor(Math.random() * availableQuestions.length);  
-   currentQuestion = availableQuestions[randomQuestionIndex]  //This will randomly generate the questions.
-   question.innerText = currentQuestion.question   //This will display the randomly generated questions to the user in sequence. 
+   currentQuestion = availableQuestions[randomQuestionIndex];  //This will randomly generate the questions.
+   question.innerText = currentQuestion.question;   //This will display the randomly generated questions to the user in sequence. 
 
 
    options.forEach(option => {
-       const number = option.dataset['number']
-       option.innerText = currentQuestion['option' + number]
-   })
+       const number = option.dataset['number'];
+       option.innerText = currentQuestion['option' + number];
+   });
 
-   availableQuestions.splice(randomQuestionIndex, 1)
-   receiveAnswers = true
+   availableQuestions.splice(randomQuestionIndex, 1);
+   receiveAnswers = true;
 }     // getNewQuestion function ends
 
 
 
 options.forEach(option => {
        option.addEventListener('click', e => {
-           if(!receiveAnswers) return
+           if(!receiveAnswers) return;
 
            receiveAnswers = false;
-           const selectedOption = e.target     
-           const selectedResult = selectedOption.dataset['number'] 
+           const selectedOption = e.target;     
+           const selectedResult = selectedOption.dataset['number']; 
 
            let optionToApply;
            if (selectedResult == currentQuestion.correctAnswer) {
@@ -172,13 +172,13 @@ options.forEach(option => {
 
            let finalScoreCounter = 0;
            if (optionToApply === 'rightAnswer') {
-               incrementScore(SCORE_POINTS) 
-               correctSound.play()
-               finalScoreCounter += score
+               incrementScore(SCORE_POINTS); 
+               correctSound.play();
+               finalScoreCounter += score;
            } else {
-              goodCommendation.innerText = ``
-              incorrectSound.play()
-              finalScoreCounter += score
+              goodCommendation.innerText = ``;
+              incorrectSound.play();
+              finalScoreCounter += score;
            }
 
            if(availableQuestions.length === 0  || questionCounter > MAX_QUESTIONS) {
@@ -194,14 +194,14 @@ options.forEach(option => {
            selectedOption.parentElement.classList.add(optionToApply); //This code adds the right answer to the parent element when the user gets the answer right
 
            setTimeout(() => {
-            selectedOption.parentElement.classList.remove(optionToApply)
-            getNewQuestion()
+            selectedOption.parentElement.classList.remove(optionToApply);
+            getNewQuestion();
 
-           }, 1000)
+           }, 1000);
            
-       })
+       });
 
-    })
+    });
 
    function incrementScore(num) {
       score +=num;
