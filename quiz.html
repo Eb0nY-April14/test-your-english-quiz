@@ -1,87 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- font awesome and google fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Raleway:wght@100&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/86e830b7c3.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="assets/css/style.css">
-
-    <title> Quiz Page</title>  
-</head>
-<body>
-    <h1 class="heading"><img class="logo" src="assets/images/engOnlineQuizLogoResize.jpg" 
-        alt="English Quiz logo"> Spelling Bee  
-    </h1>
-      
-    <div class="quizContainer">
-        <div id="quiz">        
-            <div id="headerdisplay">  
-                <div class="headerdisplay-item">   
-                    <p id="progressText" class="headerdisplay-pfix">  
-                        Question
-                    </p> 
-                    <div id="progressLevel">      
-                        <div id="progressLevelFull"></div>
-                    </div> 
-                </div>
-                <div class="headerdisplay-item">
-                    <p class="headerdisplay-pfix">
-                        Score
-                    </p>
-                    <h1 class="headerdisplay-main-text" id="score">
-                        0
-                    </h1>
-                </div> 
-            </div> 
-
-            <h3 id="goodCommendation"></h3>
-            <h3 id="badCommendation"></h3>  
-
-            <h2 id="question"></h2>  
-            <div class="option-container">   
-                <p class="option-pfix">A</p>  
-                <p class="option-text" data-number="1">Option 1</p>  
-            </div> 
-
-            <div class="option-container">   
-                <p class="option-pfix">B</p>  
-                <p class="option-text" data-number="2">Option 2</p>  
-            </div> 
-
-            <div class="option-container">   
-                <p class="option-pfix">C</p>  
-                <p class="option-text" data-number="3">Option 3</p>  
-            </div> 
-
-            <div class="option-container" id="optionContainer4">   
-                <p class="option-pfix">D</p>  
-                <p class="option-text" data-number="4">Option 4</p>  
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- font awesome and google fonts -->
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Raleway:wght@100&display=swap" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/86e830b7c3.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="assets/css/style.css">
+      <title> Quiz Page</title>
+   </head>
+   <body>
+      <h1 class="heading"><img class="logo" src="assets/images/engOnlineQuizLogoResize.jpg" 
+         alt="English Quiz logo"> Spelling Bee  
+      </h1>
+      <div class="quizContainer">
+         <div id="quiz">
+            <div id="headerdisplay">
+               <div class="headerdisplay-item">
+                  <p id="progressText" class="headerdisplay-pfix">  
+                     Question
+                  </p>
+                  <div id="progressLevel">
+                     <div id="progressLevelFull"></div>
+                  </div>
+               </div>
+               <div class="headerdisplay-item">
+                  <p class="headerdisplay-pfix">
+                     Score
+                  </p>
+                  <h1 class="headerdisplay-main-text" id="score">
+                     0
+                  </h1>
+               </div>
             </div>
-        </div>
-
-        <a href="index.html" class="homeBtn">Back to Home Page to Play Again!  <i class="fas fa-home"></i></a>  
-        
-    </div>
-
-    <footer>
-        <p>
-          &copy;2021 Christiana Temiola <br />
-          All rights reserved.
-        </p>
-  
-        <a id="topBtn" href="#top">Top</a>
-    </footer>
-
-    <script src="assets/js/script.js"></script>       
-    
-</body>
+            <h3 id="goodCommendation"></h3>
+            <h3 id="badCommendation"></h3>
+            <h2 id="question"></h2>
+            <div class="option-container">
+               <p class="option-pfix">A</p>
+               <p class="option-text" data-number="1">Option 1</p>
+            </div>
+            <div class="option-container">
+               <p class="option-pfix">B</p>
+               <p class="option-text" data-number="2">Option 2</p>
+            </div>
+            <div class="option-container">
+               <p class="option-pfix">C</p>
+               <p class="option-text" data-number="3">Option 3</p>
+            </div>
+            <div class="option-container" id="optionContainer4">
+               <p class="option-pfix">D</p>
+               <p class="option-text" data-number="4">Option 4</p>
+            </div>
+         </div>
+         <a href="index.html" class="homeBtn">Back to Home Page to Play Again!  <i class="fas fa-home"></i></a>  
+      </div>
+      <footer>
+         <p>
+            &copy;2021 Christiana Temiola <br />
+            All rights reserved.
+         </p>
+         <a id="topBtn" href="#top">Top</a>
+      </footer>
+      <script src="assets/js/script.js"></script>       
+   </body>
 </html>
-
-   
-
-  

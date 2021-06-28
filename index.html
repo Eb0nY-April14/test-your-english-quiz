@@ -1,59 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-            <!-- font awesome and google fonts -->
-  <script src="https://kit.fontawesome.com/86e830b7c3.js" crossorigin="anonymous"></script>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Raleway:wght@100&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css">
-
-  <title>Home Page</title>
-</head>
-<body>
-    <h1 class="heading"><img class="logo" src="assets/images/engOnlineQuizLogoResize.jpg" 
-        alt="English Quiz logo"> Spelling Bee  
-    </h1>
-
-    <div class="homeContainer">
-        <div id="home">  
-         <div id="welcome"></div> 
-          <form id="login-Form">        
-              <p>Please Create a Username before you Play:</p>
-              <input type="text" name="username" id="userName" placeholder="Enter your name here" required />
-              <input type="submit" id="submitBtn" value="Submit">   
-            </form>  
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- font awesome and google fonts -->
+      <script src="https://kit.fontawesome.com/86e830b7c3.js" crossorigin="anonymous"></script>
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Raleway:wght@100&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="assets/css/style.css">
+      <title>Home Page</title>
+   </head>
+   <body>
+      <h1 class="heading"><img class="logo" src="assets/images/engOnlineQuizLogoResize.jpg" 
+         alt="English Quiz logo"> Spelling Bee  
+      </h1>
+      <div class="homeContainer">
+         <div id="home">
+            <div id="welcome"></div>
+            <form id="login-Form">
+               <p>Please Create a Username before you Play:</p>
+               <input type="text" name="username" id="userName" placeholder="Enter your name here" required />
+               <input type="submit" id="submitBtn" value="Submit">   
+            </form>
             <a href="quiz.html" id="playBtn" class="playScoreBtn"> Play  <i class="fas fa-play"></i></a>
-        </div>
-    </div>  
- 
-    <footer>
-      <p>
-        &copy;2021 Christiana Temiola <br />
-        All rights reserved.
-      </p>
-
-      <a id="topBtn" href="#top">Top</a>
-    </footer>
-
-   <script>
-    let loginForm = document.getElementById('login-Form');
-
-    loginForm.addEventListener('submit', function(event) {
-      event.preventDefault();
-      let userName = document.getElementById('userName').value; 
-      
-      let html = `
-      <h1>Welcome ${userName}!!! Ready to Play and Have some Fun?</h1>
-      ` ; 
-      let welcomeDiv = document.getElementById('welcome');
-      welcomeDiv.innerHTML = html;
-      loginForm.style.display = "none";
-    })   
-  </script> 
-    
-</body>
+         </div>
+      </div>
+      <footer>
+         <p>
+            &copy;2021 Christiana Temiola <br />
+            All rights reserved.
+         </p>
+         <a id="topBtn" href="#top">Top</a>
+      </footer>
+      <script>
+         let loginForm = document.getElementById('login-Form');
+         
+         loginForm.addEventListener('submit', function(event) {
+           event.preventDefault();
+           let userName = document.getElementById('userName').value; 
+           
+           let html = `
+           <h1>Welcome ${userName}!!! Ready to Play and Have some Fun?</h1>
+           ` ; 
+           let welcomeDiv = document.getElementById('welcome');
+           welcomeDiv.innerHTML = html;
+           loginForm.style.display = "none";
+         })   
+      </script> 
+   </body>
 </html>
