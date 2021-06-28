@@ -137,14 +137,38 @@ User Experience (UX)
 
 # Wireframes
 
- For prototyping, the wireframes were designed manually by hand without using any automated tool in order to bring this idea to life. The screenshots of the two pages the quiz will have namely home and quiz pages   and their looks on mobile devices can be viewed below:
+ For prototyping, the wireframes were designed manually by hand without using any automated tool in order to bring this idea to life. The wireframes has evolved over time during the course of development. The wireframes captured how the two pages of the quiz app will look while in different states such as:
 
-    <img src="asssets/images/homePageWireframe.jpg">
-    <img src="assets/images/quizPageWireframe.jpg">
-    <img src="assets/images/endPageWireframe.jpg">
-    <img src="assets/images/mobileDevicesWireframes.jpg">
+  *  Home page before user input screen (for Desktop, Laptop & Tablet) 
+  *  Home page after user input screen (for Desktop, Laptop & Tablet) 
+  *  Home page before user input screen (for mobile)
+  *  Home page after user input screen (for mobile)
+  *  Quiz page before user input screen (for Desktop, Laptop & Tablet) 
+  *  Quiz page after user input screen (for Desktop, Laptop & Tablet) 
+  *  Quiz page before user input screen (for mobile)
+  *  Quiz page after user input screen (for mobile)
 
-&nbsp;      
+The initial idea was put on paper and as development proceeded, it was tweaked here and there resulting in the final prototype. This evolvement for large, medum and small screen devices is captured in the wireframes and can be viewed below:
+
+  * Initial Prototypes
+    <img src="wireframes/initialPrototype/homePageWireframe.jpg">
+    <img src="wireframes/initialPrototype/quizPageWireframe.jpg">
+    <img src="wireframes/initialPrototype/endPageWireframe.jpg">
+    <img src="wireframes/initialPrototype/mobileDevicesWireframes.jpg">
+
+&nbsp;  
+
+  * Final Prototypes
+    <img src="wireframes/finalPrototype/homePageAfterUserInputDesktop.jpg">
+    <img src="wireframes/finalPrototype/homePageAfterUserInputMobile.jpg">
+    <img src="wireframes/finalPrototype/homePageBeforeUserInputDesktop.jpg">
+    <img src="wireframes/finalPrototype/homePageBeforeUserInputMobile.jpg">
+    <img src="wireframes/finalPrototype/quizPageBeforePlayDesktop.jpg">
+    <img src="wireframes/finalPrototype/quizPageBeforePlayMobile.jpg">
+    <img src="wireframes/finalPrototype/quizPageEndOfPlayDesktop.jpg">
+    <img src="wireframes/finalPrototype/quizPageEndOfPlayMobile.jpg">
+
+&nbsp; 
 
 # Technologies Used
 
@@ -160,23 +184,44 @@ User Experience (UX)
 
 * Tools Used
 
-    * No tool was used for prototyping but was done manually by drawing each of them out on paper.
+    * The prototypes were done manually using pencil, pen and paper to sketch out the idea.
 
     * Snipping tool to capture screenshots of validator results, website pages and images used in the README file.
 
     * amIresponsive was used to simulate how responsive the quiz game developed is on desktop, laptop, tablet and smartphones. 
 
+&nbsp; 
+
 * Issues Encountered and Resolved
 
-    * Mastering and referencing the file paths correctly in my html code and readme file was a bit daunting and confusing at the start but with the help of my cohort facilitator and knowledge gained during the masterclass session, I got over it and everything went on smoothly.
+    * On the Quiz Page, the question tracker was implemented and testing was carried out to ensure that the number updates as a user progresses through the questions but at the end of play, it was dicovered that the question tracker had a bug. It displayed "Question 11 out of 10" instead of "Question 10 out of 10". It took some time to figure out why this is functioning abnormally and almost gave up correcting the error because it was difficult to trace out the source of the issue but through persistence, I finally succeeded in correcting the bug.
 
-    * While using the terminal, the $ prompt disappeared so I got stuck on how to exit and return back to the promt and this threw me off balance for a while but after doing an online google search, I found the command to use (i.e press q) which was a relief and within a short while, I was back on track.
+    * On the Home Page, I discovered during testing that the form's input text box did not clear away on pressing the submit button but rather it was still displayed alongside the welcome message to the user. I initially though that to correct this should not be an issue but it was so challenging that I ended up spending weeks to sort this out. I checked out so many resources online but all that they recommended which I tried failed until I finally contacted tutor support and just a single line of code sorted the issue out. See the magical code below:
+    loginForm.style.display = "none";  
+
+&nbsp; 
+
+* Issues Encountered and Not Resolved
+
+  * At the end of Play, I intended that the feedback message displayed to the user should be personalised with the user's name just like in the home Page's welcome message but it didn't work out. I thought it should be easy to do by replicating the way it was done on the home page but didn't work. I also searched online to look for resources to guide me on how to do this and all the resources I looked at pointed me to using either sessionStorage or localStorage to store the user name. I did that on the home Page and tested it out with console log and it displayed rightly but the issue is that when I wanted to use it on the quiz page by inserting the 'username' variable within the feedback message, it didn't display the username but placed 'null' in its space instead. See code below:
+  goodCommendation.innerText = `Congratulations ${username}😊!!! Your Final score is ${score} out of ${totalScoreOfGradePercent}, You are a Pro!`;
+
+&nbsp; 
+
+
+# Features to Implement in the future
+
+  * For the issue mentioned in the 'Issues Encountered and Not Resolved' section above, I hope to resolve and implement it in the near future.
+  
+  * Also, I had the plan of making the feedback message appear on a separate page at the end of play rather than on the same page as the question but due to time constraint, I could not so I hope to add this in the near future  
+
+
 
 Frameworks, Libraries and Programs Used
 
 1. Google Fonts
 
-    * Google Font was used to import the 'Lora' font into the style.css file using "@import" statement with the font's url and then used on all pages throughout the website creation but in different styles and sizes. It is then referred to through the use of "font-family" property before it can be effected on any HTML element.
+    * Google Font's 'Nova Square' and'Raleway' typefaces were used for the throughout the pages but in different styles and sizes. To use these fonts, the appropriate link provided on the Google font page was copied into the head of the html pages where they were needed and then referred to through the use of "font-family" property before it can be effected on any HTML element.
 
 2. Git
 
@@ -188,15 +233,14 @@ Frameworks, Libraries and Programs Used
 
 4. JPEG Compressor
 
-    * JPEG Compressor was used to resize images used on this website.
+    * JPEG Compressor was used to resize the logo used on this website.
 
-5.  Logo Maker
+5. Google Image Search
 
-    * Wix logo maker was used to create the website's logo called christYmet.
+    * Google Image Search was used to search for appropriate logo used with the header text across the two pages.
+6. Wireframe
 
-6. uizard wireframe
-
-    * uizard was used to create the wireframes used during the design process.
+    * The wireframes for both desktop, laptop, tablets and mobile devices were sketched manually by me using pencil and paper.
 
 ## Testing
 
