@@ -79,6 +79,14 @@ It is designed to be responsive on all device sizes and thereby accessible on a 
 
  &nbsp; 
 
+ ## Features to Implement in the future
+
+  * For the issue mentioned in the 'Issues Encountered and Not Resolved' section above, I hope to resolve and implement it in the near future.
+  
+  * Also, I had the plan of making the feedback message appear on a separate page at the end of play rather than on the same page as the question but due to time constraint, I could not so I hope to add this in the near future  
+
+&nbsp; 
+
 How the Quiz Game works (Use Cases):
 
  It is a multiple choice question whereby a set of ten questions are provided to the user one after the other in which each is an uncomplete sentence and the job of the user is to fill in each of the blank spaces with the correct word (answer), checking out the options provided carefully before selecting their choice as they look the same to trick the user into picking the wrong answer. The score is displayed at the top right corner of the Quiz screen which updates itself as the user goes through the ten questions based on whether the answer is right or wrong.
@@ -96,7 +104,6 @@ User Experience (UX)
     * First Time Visitor Goals
 
         a) I want to easily understand the main purpose of the site and navigate easily around it.
-        very intuitive and easy to figure out how to
 
         b) I want to be able to submit my answer and get response quickly on whether I'm right or wrong.
 
@@ -208,15 +215,6 @@ The initial idea was put on paper and as development proceeded, it was tweaked h
 
 &nbsp; 
 
-
-# Features to Implement in the future
-
-  * For the issue mentioned in the 'Issues Encountered and Not Resolved' section above, I hope to resolve and implement it in the near future.
-  
-  * Also, I had the plan of making the feedback message appear on a separate page at the end of play rather than on the same page as the question but due to time constraint, I could not so I hope to add this in the near future  
-
-
-
 Frameworks, Libraries and Programs Used
 
 1. Google Fonts
@@ -238,7 +236,8 @@ Frameworks, Libraries and Programs Used
 5. Google Image Search
 
     * Google Image Search was used to search for appropriate logo used with the header text across the two pages.
-6. Wireframe
+
+6. Wireframes
 
     * The wireframes for both desktop, laptop, tablets and mobile devices were sketched manually by me using pencil and paper.
 
@@ -271,15 +270,15 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
     <img src="validatorCheckerResults/jsScript2.PNG"> 
     <img src="validatorCheckerResults/jsScript3.PNG"> 
 
-
+&nbsp; 
 
 Testing User Stories from User Experience (UX) Section
 
 * First Time Visitor Goals
 
-    i. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the history that surrounds the existence of the rock.
+    i. As a First Time Visitor, I want to easily understand the main purpose of the site and navigate easily around it. 
 
-        a. Users are automatically greeted with a clean and easily readable navigation bar to take them to any page of their choice.
+        a. The quiz game is designed to be intuitive with no hidden or complex functionality that will be difficult for users to understand. The landing/home Page is not Users are automatically greeted with a clean and easily readable navigation bar to take them to any page of their choice.
 
         b. Users are presented with a large image of the Olumo Rock which covers the entire width of the page and its aim is to make the user's imagination run wild and attract them to come visit.
 
