@@ -9,9 +9,7 @@ Spelling Bee is an online Quiz game that aims at building users vocabulary in or
 
 &nbsp;
 
-<img src="assets/images/amIresponsive-myQuizWebsite.PNG">
-
-&nbsp;
+<img src="amIresponsive-myQuizWebsite.PNG">
 
 # Features
 
@@ -41,7 +39,7 @@ It is designed to be responsive on all device sizes and thereby accessible on a 
     * This is the page that appears as a user clicks on the url link and lands on the page. It is defined from the rest the of the screen page by a black border with a heading bar at the top. It welcomes the user and aims at making them feel relaxed and tune them in to a playful fun mode while at the same time learning through their interaction with the quiz app. It consists of an input textbox to allow the user input a username which will be used to display a personalised welcome message to the user and a submit button to submit the name input. There is also a play button at the bottom centre of the page which when clicked takes the user to the quiz page in order to play the quiz. 
     For mobile view, most of these features on this page will stack on top of each other for great user experience and responsiveness.
 
-    * See the 'Home Page' Screenshot below:
+    * See the 'Home Page' Screenshots below:
 
     <img src="assets/images/homePageNoUsername1.PNG">
     <img src="assets/images/homePageNoUsername2.PNG">
