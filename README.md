@@ -7,7 +7,7 @@
 
 Spelling Bee is an online Quiz game that aims at building users vocabulary in order to improve their ability to spell English words.  Users will learn a lot through play since it is a fun game that cuts across all ages, which means that it can be played and enjoyed by all to test how much of their vocabulary they know and if they can spell the words and write them down correctly in order to make a complete sentence. Sometimes, even simple words in English language that we pronounce and use everyday can throw someone off balance when it comes to spelling and writing them down correctly especially for CV and cover letter preparation, formal letter or any where that first impression matters and one's spelling has to be top-notch to prevent your CV from being shoved aside by potential employers due to poor spelling mistakes. 
 
-&nbsp;
+&nbsp;/
 
 <img src="assets/images/amIresponsive-myQuizWebsite.PNG">
 
@@ -107,7 +107,7 @@ User Experience (UX)
 
         b) I want to be able to submit my answer and get response quickly on whether I'm right or wrong.
 
-        c) I want to be able to get a feedback message on how well I performed in the quiz.
+        c) I want to be able to get a feedback message on how well I performed overall in the quiz.
 
         d) I want to be able to return easily to the home page from the quiz page without using the browser back button in order to play again.
 
@@ -272,14 +272,6 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 
 &nbsp; 
 
-
-
-        c) I want to be able to get a feedback message on how well I performed in the quiz.
-
-        d) I want to be able to return easily to the home page from the quiz page without using the browser back button in order to play again.
-
-        e) I want to be able to go back to the top of the page easily from the bottom without using the scroll bar.
-
 Testing User Stories from User Experience (UX) Section
 
 * First Time Visitor Goals
@@ -288,9 +280,9 @@ Testing User Stories from User Experience (UX) Section
 
         a. The quiz game is designed to be intuitive with no hidden or complex functionality that will be difficult for users to understand or navigate. On arriving at the landing/home Page, what the user see is an input textbox with submit and play buttons whch are self explanatory enough even for children.
 
-        b. Once the user enters his username and click on the submit button, a welcome message is displayed with the play button which a user clicks on in order to move to the quiz page.
+        b. Once the user enters his username and clicks on the submit button, a welcome message is displayed with the play button which a user clicks on in order to move to the quiz page.
 
-        c. The quiz page is also intuitive enough for user to learn quickly about how to interact with the page.
+        c. The quiz page is also intuitive enough for a user to learn quickly about how to interact with the page.
 
     ii. As a First Time Visitor, I want to be able to submit my answer and get response quickly on whether I'm right or wrong.
 
@@ -299,41 +291,40 @@ Testing User Stories from User Experience (UX) Section
 
         b. The user gets prompt feedback on their choice of answer immediately it is clicked on and they don't have to wait till the end of the quiz before knowing which ones they got right and wrong.  
 
-        c. There is a "Back to top of the Page" button at the bottom of each page so users can easily get back to the top of the page when at the bottom instead of using the scroll bar which can be frustrating to the user.
+    iii. As a First Time Visitor, I want to be able to get a feedback message on how well I performed overall in the quiz.
 
-        d. There is a Google Map link in the "Contact Page" that gives direction to users on how to locate the centre for first time visitors.
+        a. A user will get an overall feedback message on their performance displayed at the end of play. The message is either one of congratulations if their score is from 600 - 1000 or failure if it is from 0 - 500.
 
-    iii. As a First Time Visitor, I want to lok for testimonials to understand what their users think of them and also want to locate their social media links to see their following on social media to determine how trusted and known they are.
+    iv. As a First Time Visitor, I want to be able to return easily to the home page from the quiz page without using the browser back button in order to play again.
 
-        a. The user can scroll to the bottom of any page on the site to locate social media links in the footer.
+        a. There is a 'back to home page' button located at the bottom of the quiz page in which a user can click on in order to go back to the home page and play again. 
 
-        b. On the "Contact Us" page, additional ways of getting in touch are provided there. 
+    v. As a First Time Visitor, I want to be able to go back to the top of the page easily from the bottom without using the scroll bar.
+
+        a. There is a 'Top' button at the bottom right of each page that takes a user right to the top of the page quickly if clicked on. 
 
 * Returning Visitor Goal  
 
-    i. As a Returning Visitor, I want to find out if any important information such as opening hours, enrty fee, parking availability, direction details etc. has been updated.
+    i. As a Returning Visitor, I want to be able to submit my answer and get response quickly on whether I'm right or wrong.
 
-        a. The user can easily find the information needed on the appropriate page since they are displayed clearly with meaningful headings and captions in order to avoid ambiguity which can lead to confusion or misinformation. 
+        a. There is only one option that is right out of the four options provided. Sounds are attached to both the right option and wrong options with the aim of providing feedback to the user as they play along. Also, the four answer option buttons provided have default background colour of blue and either changes to green if the right answer is chosen or red if otherwise.
+        The idea behind the sounds and colour coded buttons implemented into the game is to ensure that the needs of users who are impaired in one way or the other are met and by extension, all users enjoy the benefits.
 
-        b. In addition, the user can go to the 'Contact Us' page to get the tourism board's contact details such as office address, phone number and email address or drop a query in the Query/Feedback section of the page.
+        b. The user gets prompt feedback on their choice of answer immediately it is clicked on and they don't have to wait till the end of the quiz before knowing which ones they got right and wrong.  
 
-    ii. As a Returning Visitor, I want to find the best way to get in touch with the tourist center management on any enquiry or feedback I may have.
+    ii. As a Returning Visitor, I want to be able to get a feedback message on how well I performed in the quiz.
 
-        a. The user can make use of the 'Contact Us' link on the navigation bar which can be found at the top of each page for easy access and is clearly highlighted in lime green when the mouse is hovered on it.
+        a. A user will get an overall feedback message on their performance displayed at the end of play. The message is either one of congratulations if their score is from 600 - 1000 or failure if it is from 0 - 500.
 
-        b. When a user clicks on the 'Contact Us' link, it takes him to the contact us page where the contact details of the tourism board i.e christYmet and an enquiry/feedback form are provided so he can choose which one to reach them on. 
+    iii. As a Returning Visitor, I want to be able to return easily to the home page from the quiz page without using the browser back button in order to play again.
 
-        c. The Contact Us page contains the office address, email address and Phone number of the tourism board.
-        
-        d. The email address is set up to automatically open up the site's email and auto-fill their e-mail address in the "To" section.
+        a. There is a 'back to home page' button located at the bottom of the quiz page in which a user can click on in order to go back to the home page and play again. 
 
-    iii. As a Returning Visitor, I want to connect to the site's social media platforms in order to give feedbacks and get up-to-date information about any upcoming events.
+    iv. As a Returning Visitor, I want to be able to go back to the top of the page easily from the bottom without using the scroll bar.
 
-        a. The footer section which can be found on every page contains links to the site's social media platforms represented with each social media platform's logo/icon for easy recognition.
+        a. There is a 'Top' button at the bottom right of each page that takes a user right to the top of the page quickly if clicked on. 
 
-        b. Any link that the user clicks will open in a new tab beside this current website for closer proximity in case they need to switch from one tab to the other and to ensure that they are not taken away completely from this website but can get back easily when necessary.
-
-        c. An external link to the Ogun State Government website is provided in the mid-section of the home page where users can find information about the social media platforms for all the various departments under it in which christYmet History Website is one of them.
+&nbsp; 
 
 *  Further Testing
 
@@ -341,9 +332,11 @@ Testing User Stories from User Experience (UX) Section
     
     * Testing was done to ensure that all pages were linked correctly.
 
-    * The website was viewed on a variety of devices such as desktop, laptop, iPad Pro, iPhone 6s and Huawei P smart Z android phone.
+    * The website was viewed on a variety of devices such as desktop, laptop, iPad Pro, iPhone 6s, Huawei P smart Z android phone etc.
 
     * Friends and family members were asked to review the quiz app and documentation in order to point out any bugs and/or User eXperience (UX) issues. 
+
+&nbsp;     
 
 # Deployment
 
@@ -376,14 +369,14 @@ View the GitHub Repository [here](https://github.com/Eb0nY-April14/test-your-eng
 
         * Both the Home and Quiz Pages were created by me.
 
-        * For the Quiz page, I made use of an online tutorial video from YouTube by Brian Design, putting my own twist to it in order to make it different from the author's finished quiz game app.  The styling and JavaScript code has few similarities and major differences to show that I clearly understood what the author was doing and applied it my own way to the quiz game.   The link to the video tutorial is https://www.youtube.com/watch?v=f4fB9Xg2JEY
+        * For the Quiz page, I made use of an online tutorial video from YouTube by Brian Design, putting my own twist to it in order to make it different from the author's finished quiz game app.  The styling and JavaScript code has few similarities and major differences to show that I clearly understood what the author was doing and applied it my own way to the quiz game. The link to the video tutorial is https://www.youtube.com/watch?v=f4fB9Xg2JEY
 
 
     * Media
 
         * The Logo used for this website was found through Google Search and obtained at https://image.winudf.com/v2/image1/b3JnLmNhbWJyaWRnZWVuZ2xpc2guYnJhdmkucXVpel9pY29uXzE1NTQ5NjExNjRfMDI4/icon.png?w=&fakeurl=1
 
-        * The audio sounds used on the quiz page and how to apply it to my JavaScript file was obtained from this link: https://docs.idew.org/code-trivia-app/advanced/code-mod-examples/sound-add-sound-effects-on-answer-clicks.
+        * The audio sounds used on the quiz page and how to apply it to my JavaScript file were obtained from this link: https://docs.idew.org/code-trivia-app/advanced/code-mod-examples/sound-add-sound-effects-on-answer-clicks.
 
         * The font awesome play icon was used on the home page and obtained from the font awesome website while the emojis used on the quiz page for the feedback messages and its corresponding usage tutorial were obtained from the following websites: 
 
@@ -402,8 +395,6 @@ View the GitHub Repository [here](https://github.com/Eb0nY-April14/test-your-eng
     * Brian Design's tutorial video on YouTube for helpful resources.
 
 
-
-&nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  
 
 
 
