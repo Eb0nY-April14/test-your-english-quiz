@@ -272,27 +272,32 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 
 &nbsp; 
 
+
+
+        c) I want to be able to get a feedback message on how well I performed in the quiz.
+
+        d) I want to be able to return easily to the home page from the quiz page without using the browser back button in order to play again.
+
+        e) I want to be able to go back to the top of the page easily from the bottom without using the scroll bar.
+
 Testing User Stories from User Experience (UX) Section
 
 * First Time Visitor Goals
 
     i. As a First Time Visitor, I want to easily understand the main purpose of the site and navigate easily around it. 
 
-        a. The quiz game is designed to be intuitive with no hidden or complex functionality that will be difficult for users to understand. The landing/home Page is not Users are automatically greeted with a clean and easily readable navigation bar to take them to any page of their choice.
+        a. The quiz game is designed to be intuitive with no hidden or complex functionality that will be difficult for users to understand or navigate. On arriving at the landing/home Page, what the user see is an input textbox with submit and play buttons whch are self explanatory enough even for children.
 
-        b. Users are presented with a large image of the Olumo Rock which covers the entire width of the page and its aim is to make the user's imagination run wild and attract them to come visit.
+        b. Once the user enters his username and click on the submit button, a welcome message is displayed with the play button which a user clicks on in order to move to the quiz page.
 
-        c. Users are given a short introduction of the site and an in-depth history of the rock.
+        c. The quiz page is also intuitive enough for user to learn quickly about how to interact with the page.
 
-        d. The 'Gallery' page displays various images of the rock taken at different views and their historical importance. It also contains pictures of tourists/visitors to the centre.
+    ii. As a First Time Visitor, I want to be able to submit my answer and get response quickly on whether I'm right or wrong.
 
-        e. Information about the opening times and entry fee are displayed clearly on the home page for every visitor and most especially first time visitors to see.
+        a. There is only one option that is right out of the four options provided. Sounds are attached to both the right option and wrong options with the aim of providing feedback to the user as they play along. Also, the four answer option buttons provided have default background colour of blue and either changes to green if the right answer is chosen or red if otherwise.
+        The idea behind the sounds and colour coded buttons implemented into the game is to ensure that the needs of users who are impaired in one way or the other are met and by extension, all users enjoy the benefits.
 
-    ii. As a First Time Visitor, I want to be able to navigate easily throughout the site to find content.
-
-        a. The site was built with flexibility in mind.  This means that width percentages that allows the site to scale up and down easily across different screen sizes and devices were used.
-
-        b. The site was made never to entrap the user.  There is a clean navigation bar at the top of each page and each of the links clearly describes what page the users will end up at when it is clicked.
+        b. The user gets prompt feedback on their choice of answer immediately it is clicked on and they don't have to wait till the end of the quiz before knowing which ones they got right and wrong.  
 
         c. There is a "Back to top of the Page" button at the bottom of each page so users can easily get back to the top of the page when at the bottom instead of using the scroll bar which can be frustrating to the user.
 
