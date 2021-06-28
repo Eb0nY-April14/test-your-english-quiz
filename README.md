@@ -7,7 +7,7 @@
 
 Spelling Bee is an online Quiz game that aims at building users vocabulary in order to improve their ability to spell English words.  Users will learn a lot through play since it is a fun game that cuts across all ages, which means that it can be played and enjoyed by all to test how much of their vocabulary they know and if they can spell the words and write them down correctly in order to make a complete sentence. Sometimes, even simple words in English language that we pronounce and use everyday can throw someone off balance when it comes to spelling and writing them down correctly especially for CV and cover letter preparation, formal letter or any where that first impression matters and one's spelling has to be top-notch to prevent your CV from being shoved aside by potential employers due to poor spelling mistakes. 
 
-&nbsp;/
+&nbsp;
 
 <img src="assets/images/amIresponsive-myQuizWebsite.PNG">
 
