@@ -239,6 +239,19 @@ Frameworks, Libraries and Programs Used
 
     * The wireframes for both desktop, laptop, tablets and mobile devices were sketched manually by me using pencil and paper.
 
+7. Code Formatter
+
+    * The html codes were formatted using an online formatter called "freeformatter" with the link below:
+     https://www.freeformatter.com/html-formatter.html
+
+     * The style.css code was formatted using an online formatter called "CSS Formatter" and is available on the link below:
+      https://www.cleancss.com/css-beautify/
+
+      * The script.js code was formatted using an online formatter called "freeformatter" with the link below:
+      https://www.freeformatter.com/javascript-beautifier.html
+
+&nbsp;      
+
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator services were used to validate every page of the project to ensure there were no syntax errors in the project and prettier code formatter was used to format the code for proper code indentation.
